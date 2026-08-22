@@ -1,0 +1,12 @@
+slug,scheme,key,value,status,note,source_key
+netflix,netflix-vfx,shot-template,<showID>_<episode>_<seq>_<scene>_<shotID>_<task>_<vendorID>_<version>,documented,Published on the Netflix Partner Help Center. The only studio-authored shot-naming template in the public domain.,netflix-vfx-naming
+netflix,netflix-vfx,example,AGM_104_TCC_067_0010_comp_NFX_v001,documented,,netflix-vfx-naming
+netflix,netflix-vfx,shot-increment,10,documented,Shot IDs step by 10 so a shot spotted later between 0010 and 0020 takes 0015.,netflix-vfx-naming
+netflix,netflix-vfx,vendor-id-required,series,documented,Required for series; encouraged for everything else.,netflix-vfx-naming
+netflix,netflix-vfx,naming-owner,editorial,documented,"Netflix recommends a role embedded with editorial names shots as editorial spots them, so VFX and editorial can cross-check lists.",netflix-vfx-naming
+netflix,capture-standard,sensor-width,3840 photosites spherical,documented,The Approved Camera programme minimum.,netflix-cameras
+netflix,capture-standard,bit-depth,10-bit or greater,documented,,netflix-cameras
+netflix,capture-standard,data-rate,240 Mbps minimum at 24fps,documented,,netflix-cameras
+netflix,capture-standard,colour,scene-referred gamut and transfer function,documented,"S-Gamut3, ALEXA Wide Gamut, REDWideGamut; Slog3, LogC, Log3G10, VLog.",netflix-cameras
+netflix,capture-standard,approved-coverage,90 percent of final runtime,documented,At least ninety percent of a programme's final runtime must be captured on an approved camera.,netflix-cameras
+netflix,etc-movielabs-vfx-is,participation,contributor,contributor,"Netflix is listed among ETC industry contributors, and its own recommendations run parallel to the spec rather than restating it.",etc-vfx-is-1.0

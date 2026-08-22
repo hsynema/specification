@@ -1,0 +1,20 @@
+{
+ "schema": "westwyrd.corpus-stamp-bound.v1",
+ "binds": "data/shot-grammar/CORPUS-STAMP.json",
+ "binds_sha256": "10a8fd835c6882b8030f30c650698653fb7372b20ee69d2298e7476eb8b75ee6",
+ "public_digest": "9d5d6b7a33256a6b612ec125e7395883d194da7002d6e5862e1261b697b8236e",
+ "full_digest": "971c0fdd8f2709c970df64a29c368f95466f9d88522ece1d97f398895acc6285",
+ "no_earlier_than": {
+  "chain": "bitcoin-mainnet",
+  "height": 963630,
+  "block_hash": "00000000000000000001b8a554225ffda9aea606ba12ce02817b4cbdfdbb7257",
+  "establishes": "this document was created AFTER this block existed, because it names its hash"
+ },
+ "no_later_than": {
+  "mechanism": "OpenTimestamps",
+  "file": "CORPUS-STAMP.json.ots",
+  "establishes": "this document existed BEFORE the Bitcoin block that commits the calendar attestation",
+  "status": "pending \u2014 calendars aggregate then commit; run `ots upgrade` to pull the attestation"
+ },
+ "note": "Two one-sided bounds make a window. Neither half is evidence alone: a self-recorded height is a number anyone can type, and a timestamp with no lower bound cannot exclude back-dating. Together they bracket creation between two Bitcoin blocks."
+}

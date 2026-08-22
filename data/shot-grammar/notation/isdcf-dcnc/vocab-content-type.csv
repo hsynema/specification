@@ -1,0 +1,17 @@
+scheme,code,label,definition,source_key
+isdcf-dcnc,FTR,feature,"A theatrical feature.",isdcf-dcnc
+isdcf-dcnc,TLR,trailer,"Short (2 to 3 minutes) content promoting an upcoming theatrical feature.",isdcf-dcnc
+isdcf-dcnc,TSR,teaser,"Very short (typically less than 1 minute) content promoting an upcoming theatrical feature.",isdcf-dcnc
+isdcf-dcnc,TST,test,"Content used to test, calibrate or setup D-Cinema exhibition equipment.",isdcf-dcnc
+isdcf-dcnc,RTG,rating,"Slate or still picture indicating the recommended age group permitted to view the content to follow.",isdcf-dcnc
+isdcf-dcnc,ADV,advertisement,"Content promoting a product or service other than an upcoming feature.",isdcf-dcnc
+isdcf-dcnc,SHR,short,"Non advertising or promotional content (3 to 15 minutes) typically before a theatrical feature.",isdcf-dcnc
+isdcf-dcnc,XSN,transitional,"Extremely short content (1 to 15 seconds) separating unrelated compositions.",isdcf-dcnc
+isdcf-dcnc,PSA,public service announcement,"Public service announcement.",isdcf-dcnc
+isdcf-dcnc,POL,policy,"Content defining the code of conduct for patrons.",isdcf-dcnc
+isdcf-dcnc,CLP,clip,"An excerpt from a longer piece of content that may be displayed on its own or with other clips.",isdcf-dcnc
+isdcf-dcnc,PRO,promotional,"A piece of promotional publicity or advertising.",isdcf-dcnc
+isdcf-dcnc,STR,stereo card,"'Please Put Your 3D Glasses On Now' card.",isdcf-dcnc
+isdcf-dcnc,EPS,episode,"Part of a dramatic work such as a serial television program.",isdcf-dcnc
+isdcf-dcnc,HLT,highlights,"Edited sequence of one or more memorable parts of an event, feature, episode or period of time.",isdcf-dcnc
+isdcf-dcnc,EVT,event,"Activity that happens at a given place and time, especially one of importance, including a music performance or a contest making up a sports competition.",isdcf-dcnc

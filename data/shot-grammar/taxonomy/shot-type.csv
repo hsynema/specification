@@ -1,0 +1,14 @@
+id,label,abbrev,aliases,category,scope,field,parent,text,hands_forward,accepts,local_status,note,provenance,source_key
+type.ots,over-the-shoulder,OTS,,framing,shot,camera,type.relational,framed past the near figure's shoulder onto the far figure,,,GROUNDED,"Needs two figures in fixed relative position. Across a carry, subject scale is the pin most likely to break.",industry-standard,studiobinder-abbrev
+type.oth,over-the-hip,OTH,,framing,shot,camera,type.relational,framed past the near figure's hip onto the far figure,,,UNVERIFIED,,industry-standard,studiobinder-abbrev
+type.two,two shot,2S,two-shot,framing,shot,camera,type.relational,two figures sharing the frame,,,GROUNDED,,industry-standard,studiobinder-shots
+type.three,three shot,3S,three-shot,framing,shot,camera,type.relational,three figures sharing the frame,,,UNVERIFIED,,industry-standard,studiobinder-shots
+type.group,group shot,GS,,framing,shot,camera,type.relational,a group held in one frame,,,UNVERIFIED,,industry-standard,studiobinder-shots
+type.single,single,SGL,clean single,framing,shot,camera,type.relational,one figure alone in frame,,,GROUNDED,,industry-standard,studiobinder-shots
+type.pov,point of view,POV,,framing,shot,camera,type.subjective,the frame the subject is seeing,,,GROUNDED,Implies the camera inherits the subject's motion. Pairs with handheld more often than with static.,industry-standard,studiobinder-abbrev
+type.reaction,reaction shot,RXN,,framing,shot,camera,type.subjective,close on a face responding to what was just shown,,,GROUNDED,,industry-standard,studiobinder-shots
+type.master,master shot,MASTER,,framing,shot,camera,type.coverage,the whole scene played through in one wide frame,,,EXCLUDED,A coverage concept. Has no meaning in a 25-97 frame envelope — listed so a parser can reject it.,industry-standard,script-supervising
+type.cutaway,cutaway,CA,,framing,shot,camera,type.coverage,a frame away from the main action,,,GROUNDED,"Always a cut, never a carry.",industry-standard,studiobinder-shots
+type.insert-detail,detail insert,INS,,framing,shot,camera,type.coverage,"detail of an object, isolated",,,GROUNDED,,industry-standard,studiobinder-shots
+type.est,establishing shot,EST,,framing,shot,camera,type.coverage,the frame that places the scene,,,GROUNDED,,industry-standard,studiobinder-abbrev
+type.spfx,special effects shot,SPFX,,framing,shot,camera,type.coverage,a shot whose content is an effect,,,UNVERIFIED,Marks a shot for the effects pipeline. See notation/etc-movielabs-vfx-is.,industry-standard,studiobinder-abbrev

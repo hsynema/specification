@@ -1,0 +1,14 @@
+id,label,abbrev,aliases,category,scope,field,parent,text,hands_forward,accepts,local_status,note,provenance,source_key
+trans.cut,cut,CUT,hard cut,transition,link,link.transition,trans.instant,"straight cut",,,GROUNDED,"The default. Costs nothing and is the only transition the assembly path executes for free.",industry-standard,studiobinder-shots
+trans.smash,smash cut,SMASH,,transition,link,link.transition,trans.instant,"abrupt cut against the prevailing rhythm",,,GROUNDED,"A rhythm claim, not a render claim — it is a cut whose neighbours are long.",industry-standard,studiobinder-shots
+trans.match,match cut,MATCH,,transition,link,link.transition,trans.instant,"cut on a shared shape or motion across two scenes",,,OURS,"Excluded from the camera vocabulary at SHOT-GRAMMAR §V because it is a cut, not a move — but it is expressible here, as a constraint on the two clips either side.",industry-standard,olympiad-shot-grammar
+trans.jump,jump cut,JUMP,,transition,link,link.transition,trans.instant,"cut forward in time within the same framing",,,GROUNDED,,industry-standard,studiobinder-shots
+trans.dissolve,dissolve,DIS,cross dissolve|XDIS,transition,link,link.transition,trans.gradual,"one image fading into the next",,,GROUNDED,"Maps to SequenceClip.transitionSec at assembly.",industry-standard,studiobinder-shots
+trans.fadein,fade in,FI,FADE IN,transition,link,link.transition,trans.gradual,"black rising into image",,,GROUNDED,,industry-standard,studiobinder-shots
+trans.fadeout,fade out,FO,FADE OUT,transition,link,link.transition,trans.gradual,"image falling to black",,,GROUNDED,,industry-standard,studiobinder-shots
+trans.fadewhite,fade to white,FTW,,transition,link,link.transition,trans.gradual,"image rising to white",,,GROUNDED,,industry-standard,studiobinder-shots
+trans.wipe,wipe,WIPE,,transition,link,link.transition,trans.gradual,"one image pushing the other off frame along an edge",,,GROUNDED,,industry-standard,studiobinder-shots
+trans.iris,iris,IRIS,,transition,link,link.transition,trans.gradual,"circular mask closing or opening on the frame",,,GROUNDED,,industry-standard,studiobinder-shots
+trans.jcut,J cut,J,,transition,link,link.transition,trans.audio,"audio of the next shot beginning under the current one",,,EXCLUDED,"An audio-led transition. LTX generates no audio; this is arranged on the DAW side. SHOT-GRAMMAR §I.",industry-standard,studiobinder-shots
+trans.lcut,L cut,L,,transition,link,link.transition,trans.audio,"audio of the current shot continuing under the next",,,EXCLUDED,"See J cut.",industry-standard,studiobinder-shots
+trans.whippan,whip pan transition,WHIPT,,transition,link,link.transition,trans.camera,"two shots joined through a blurred pan",,,EXCLUDED,"Requires the move to exist in both clips. Whip pan is excluded at SHOT-GRAMMAR §V.",industry-standard,studiobinder-shots

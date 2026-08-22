@@ -1,0 +1,8 @@
+scheme,title,owner,kind,delimiter,subfield_delimiter,case,field_count,parseable,template,example,provenance,source_key
+etc-movielabs-vfx-is,VFX Image Sequence Naming v1.0,ETC at USC / MovieLabs,image-sequence,_,-,lower,12,no,<showid>_<vfx-sequence>_<vfx-shot>_<image-type>_<vendor-code>_<revision-code>{_<alternate>}{_<camera-reference>}{_<identifying-description>}{_<spec-version>}{.<frame-number>}.<ext>,un-ff25_ib_0100_comp_dd_v020.1000.exr,published-spec,etc-vfx-is-1.0
+netflix-vfx,VFX Shot and Version Naming,Netflix,shot-id,_,-,mixed,8,yes,<showID>_<episode>_<seq>_<scene>_<shotID>_<task>_<vendorID>_<version>,AGM_104_TCC_067_0010_comp_NFX_v001,published-spec,netflix-vfx-naming
+isdcf-dcnc,Digital Cinema Naming Convention,InterSociety Digital Cinema Forum,package,_,-,mixed,12,yes,<Title>_<ContentType>_<Aspect>_<Language>_<Territory>_<Audio>_<Resolution>_<Studio>_<Date>_<Facility>_<Standard>_<PackageType>,MovieTitle_FTR_F_EN-XX_INT_51_2K_NULL_20230622_NUL_SMPTE_OV,published-spec,isdcf-dcnc
+movielabs-omc-slate,Slate UID (Ontology for Media Creation v2.8),MovieLabs,slate,none,-,mixed,3,no,<scene-descriptor><setup>-<take-number>,15A-1,published-spec,movielabs-omc-context
+slate-american,American slate numbering,industry practice,slate,none,none,upper,3,no,<scene-number><setup-letter> / take <n>,24A take 3,industry-standard,artmann-naming
+slate-european,European slate numbering,industry practice,slate,/,none,upper,3,no,<scene-number>/<shot-number> / take <n>,6/1 take 3,industry-standard,artmann-naming
+olympiad-cachekey,SequenceStore cache key,OLYMPIAD,content-hash,U+001F,none,lower,8,no,SHA-256(<composed-prompt>␟<seed>␟<frames>␟<width>␟<height>␟<steps>␟<chain-anchor>␟<image-tag>)[0:8],3f9c1a7e,ours,olympiad-standards

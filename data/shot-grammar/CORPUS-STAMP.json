@@ -1,0 +1,946 @@
+{
+ "schema": "westwyrd.corpus-stamp.v1",
+ "work": "H.SYN.EMA \u00b7 Westwyrd Shot Grammar",
+ "publisher": "Westwyrd Federated Instruments",
+ "method": "sha256 over sorted( sha256(file) || 0x1E || path || 0x1E )",
+ "public_digest": "9d5d6b7a33256a6b612ec125e7395883d194da7002d6e5862e1261b697b8236e",
+ "public_file_count": 233,
+ "full_digest": "971c0fdd8f2709c970df64a29c368f95466f9d88522ece1d97f398895acc6285",
+ "full_file_count": 239,
+ "note": "full_digest includes the private adoption strategy; public_digest is the corpus intended for publication. Both are stamped so either can be proven later without disclosing the other.",
+ "ledger_head_at_stamp": "db9021f8467c7208ca835bd22fb79904e934217b621df12c8913db4ddfdbaf5b",
+ "files": [
+  {
+   "path": "data/shot-grammar/PATENTS.md",
+   "sha256": "88a8c07b20f4b6bf643db4214813ba9a6a8a21dab27725daf3ad8b3f7db2d7c4"
+  },
+  {
+   "path": "data/shot-grammar/README.md",
+   "sha256": "41410c46efdee23723b371fa1b41c63e82a8f07b2acd93c568328baa92c901a1"
+  },
+  {
+   "path": "data/shot-grammar/_schema/enums.csv",
+   "sha256": "a23eb98825c8c70c3cd4f4ce61ab5ed09a0209e82f1cc7491c285088541d9838"
+  },
+  {
+   "path": "data/shot-grammar/_schema/schema.csv",
+   "sha256": "b14a856061ddd18581c76cb100fd85acf482bbe512784bc5d5f4d91abfc35e49"
+  },
+  {
+   "path": "data/shot-grammar/_schema/sources.csv",
+   "sha256": "0a7c107e695485c05a3bba080a82dc49fb0fccf36db21ea6119137deedf709ab"
+  },
+  {
+   "path": "data/shot-grammar/build/seal_studios.py",
+   "sha256": "25d98cde12a44f1076ca95d3019ea9ed58d53b3e750187dbc406c5be9694ae77"
+  },
+  {
+   "path": "data/shot-grammar/build/split_studios.py",
+   "sha256": "135ff4d0cbdc90f919c0ac924ace37eaa394dbc527ea697b802220a199abe9e2"
+  },
+  {
+   "path": "data/shot-grammar/loader.py",
+   "sha256": "9a7d2bc0cb6af55c0ed714b9120ccda35a6d97e77e32d21b7e326f10999cbe06"
+  },
+  {
+   "path": "data/shot-grammar/notation/etc-movielabs-vfx-is/fields.csv",
+   "sha256": "0156821e3c0409e21ff174742b15d7618b56a7810aa368f9d059d4d464513cf1"
+  },
+  {
+   "path": "data/shot-grammar/notation/etc-movielabs-vfx-is/vocab-image-type.csv",
+   "sha256": "d2c3b90603be38787fbaa995b158c4a5e63aba45a07d861a193424b721614716"
+  },
+  {
+   "path": "data/shot-grammar/notation/isdcf-dcnc/fields.csv",
+   "sha256": "e7d210cc06ce49648d426a844eb597bf3ecc1466effaf74c5b1ca1bcd218010a"
+  },
+  {
+   "path": "data/shot-grammar/notation/isdcf-dcnc/vocab-content-type.csv",
+   "sha256": "cc17d8f8c5b743c7888d11a7d46e8ae285492dea5d9a64e031f14dab9523d97e"
+  },
+  {
+   "path": "data/shot-grammar/notation/movielabs-omc/fields.csv",
+   "sha256": "9e5d15c535f82c220c461bcba1a52e3dbb529532849b8894991af7d1fe2dea3b"
+  },
+  {
+   "path": "data/shot-grammar/notation/movielabs-omc/vocab-entity.csv",
+   "sha256": "b4fa40306382193d7b4225fc84311071aab82b85bd20155b576ab9b84b62cd96"
+  },
+  {
+   "path": "data/shot-grammar/notation/netflix-vfx/fields.csv",
+   "sha256": "15b76a98acfab58591e5ea817ea1084a751e102c901feb0a8c104294b84816df"
+  },
+  {
+   "path": "data/shot-grammar/notation/olympiad-cachekey/fields.csv",
+   "sha256": "51d58028127a3beedf0016106030d039a4b749b97606297d075ad35994cfc7e1"
+  },
+  {
+   "path": "data/shot-grammar/notation/schemes.csv",
+   "sha256": "18c2700fb525ed6fc6a31698ee976b38a246b5391c54bf76cad9a2d8247f5150"
+  },
+  {
+   "path": "data/shot-grammar/notation/slate-scene/fields.csv",
+   "sha256": "ab7266600dc986f4402d42fc466bff5d7dc8fc5a3c31e1c8ccf285aa892ecd0a"
+  },
+  {
+   "path": "data/shot-grammar/registries/isdcf-studio-codes.csv",
+   "sha256": "815953cc7a009401831420564834e4dc4eaeeea395e52cc827b320a20bf5ed19"
+  },
+  {
+   "path": "data/shot-grammar/studios/HEAD",
+   "sha256": "029d8f7d2144c5f928c8b4ec4c901516c46dc53ba0637c4857408d06775182ce"
+  },
+  {
+   "path": "data/shot-grammar/studios/a24/bodies.csv",
+   "sha256": "a11b7cea204ab7326e37222e1cb99bad3c61312c504e32535eaf4a81be35e712"
+  },
+  {
+   "path": "data/shot-grammar/studios/a24/history.csv",
+   "sha256": "df42957b70b0faa70ea3690eddca5dd946b0a796f847d382e010afffb5c2a5b4"
+  },
+  {
+   "path": "data/shot-grammar/studios/a24/meta.csv",
+   "sha256": "143de7fdd5095382ffc5b7fcc4d31f222ce833f5eaa174d5a64158eb7a3f6855"
+  },
+  {
+   "path": "data/shot-grammar/studios/a24/notation.csv",
+   "sha256": "11812255921d620b89ab71f48ece8af649fdd69eb5db5c36e948764d4680943e"
+  },
+  {
+   "path": "data/shot-grammar/studios/a24/style.csv",
+   "sha256": "fe994eb98a781b5421cafd38dbf8c2a32a73bee80b0251e5e095795a969a8f98"
+  },
+  {
+   "path": "data/shot-grammar/studios/amazon-mgm-studios/bodies.csv",
+   "sha256": "b40f42498168a5df819ee125097944507a8b8f4e69ae2bf5fa6d5386028d1844"
+  },
+  {
+   "path": "data/shot-grammar/studios/amazon-mgm-studios/history.csv",
+   "sha256": "577eb33258685ecb2319fd75feb266a68d27d8644c9b098deea7f57ac52e57a3"
+  },
+  {
+   "path": "data/shot-grammar/studios/amazon-mgm-studios/meta.csv",
+   "sha256": "4e3afd77ef2c1b6aaf96e1f83e8ade529bfd8e9fa67eee59945c18dac907110e"
+  },
+  {
+   "path": "data/shot-grammar/studios/amazon-mgm-studios/notation.csv",
+   "sha256": "3df0f5c9639dab8289c6debe60794c149a758ae32dff6f1d7261269bf6cc8206"
+  },
+  {
+   "path": "data/shot-grammar/studios/amazon-mgm-studios/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/studios/amblin-entertainment/bodies.csv",
+   "sha256": "a11b7cea204ab7326e37222e1cb99bad3c61312c504e32535eaf4a81be35e712"
+  },
+  {
+   "path": "data/shot-grammar/studios/amblin-entertainment/history.csv",
+   "sha256": "6ce04c9dcb57ae482af2ee756c09df501acd160faabacae93e794aabfe808a76"
+  },
+  {
+   "path": "data/shot-grammar/studios/amblin-entertainment/meta.csv",
+   "sha256": "bb98e8a4596f85f197abc42b7f5509e8486654425ea16cb064953a204a6f09c8"
+  },
+  {
+   "path": "data/shot-grammar/studios/amblin-entertainment/notation.csv",
+   "sha256": "11812255921d620b89ab71f48ece8af649fdd69eb5db5c36e948764d4680943e"
+  },
+  {
+   "path": "data/shot-grammar/studios/amblin-entertainment/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/studios/annapurna-pictures/bodies.csv",
+   "sha256": "a11b7cea204ab7326e37222e1cb99bad3c61312c504e32535eaf4a81be35e712"
+  },
+  {
+   "path": "data/shot-grammar/studios/annapurna-pictures/history.csv",
+   "sha256": "64cfb6e9c78476b698e777ffc7ac88eca1ae9dce4f60393eedfd12709cb4d4b0"
+  },
+  {
+   "path": "data/shot-grammar/studios/annapurna-pictures/meta.csv",
+   "sha256": "ee56c00d43bef9d502550b78149a99495569b3e9382449d4446d1f9cc9e91e23"
+  },
+  {
+   "path": "data/shot-grammar/studios/annapurna-pictures/notation.csv",
+   "sha256": "11812255921d620b89ab71f48ece8af649fdd69eb5db5c36e948764d4680943e"
+  },
+  {
+   "path": "data/shot-grammar/studios/annapurna-pictures/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/studios/apple-studios/bodies.csv",
+   "sha256": "987b8aa58e7efbd40f54b033bf984b6a309b8a10ad6d0b36e6b3aa6900c26027"
+  },
+  {
+   "path": "data/shot-grammar/studios/apple-studios/history.csv",
+   "sha256": "59ffbfa1e103a731ea29b31d3ee21e3524329d4ff6897ac46fb7dd976f0447f4"
+  },
+  {
+   "path": "data/shot-grammar/studios/apple-studios/meta.csv",
+   "sha256": "5f21b99f8abbffce85d43cd48791292fad56daccf34f50f3e0bc3caf114b8b1a"
+  },
+  {
+   "path": "data/shot-grammar/studios/apple-studios/notation.csv",
+   "sha256": "2bb774f09aaa274af6900a46410bb89c6b4e1a87396670d603976c4bc7554fd1"
+  },
+  {
+   "path": "data/shot-grammar/studios/apple-studios/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/studios/blumhouse/bodies.csv",
+   "sha256": "a11b7cea204ab7326e37222e1cb99bad3c61312c504e32535eaf4a81be35e712"
+  },
+  {
+   "path": "data/shot-grammar/studios/blumhouse/history.csv",
+   "sha256": "6f690fd0508cfc3c872b676c8c7bbabb5a2605dc73d4f17d2ec5f8797a84a434"
+  },
+  {
+   "path": "data/shot-grammar/studios/blumhouse/meta.csv",
+   "sha256": "0120afbb8160c30cf160bfc51dc3c75ee8f72b331617ad4deed7285e7535883d"
+  },
+  {
+   "path": "data/shot-grammar/studios/blumhouse/notation.csv",
+   "sha256": "11812255921d620b89ab71f48ece8af649fdd69eb5db5c36e948764d4680943e"
+  },
+  {
+   "path": "data/shot-grammar/studios/blumhouse/style.csv",
+   "sha256": "0e06cdd84661dbf5e92f768e2629b69dae737be7c896fbd158b7b22af638bdd5"
+  },
+  {
+   "path": "data/shot-grammar/studios/bodies.csv",
+   "sha256": "bf23978faa66ed274639d20b6fb2a872a2eb6bdbeab564527597b5367b9e07bc"
+  },
+  {
+   "path": "data/shot-grammar/studios/digital-domain/bodies.csv",
+   "sha256": "7ebb59dced3763df55b893d4881b25d3641286f5fddc31ffe5439dcd07f512eb"
+  },
+  {
+   "path": "data/shot-grammar/studios/digital-domain/history.csv",
+   "sha256": "7ab66f5729f754462a26513a406046494da32e8bb0db28e4a0b60e74802150a0"
+  },
+  {
+   "path": "data/shot-grammar/studios/digital-domain/meta.csv",
+   "sha256": "5c1437dad3e24bdb3bbe87040b293d50f5af4ede4356e6134537ac60fa0f8b90"
+  },
+  {
+   "path": "data/shot-grammar/studios/digital-domain/notation.csv",
+   "sha256": "93d0b2c2d793dff7908e9ec46d9d24e3d8e48af33581a1dbc3035aa1563d577e"
+  },
+  {
+   "path": "data/shot-grammar/studios/digital-domain/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/studios/disney-live-action/bodies.csv",
+   "sha256": "a11b7cea204ab7326e37222e1cb99bad3c61312c504e32535eaf4a81be35e712"
+  },
+  {
+   "path": "data/shot-grammar/studios/disney-live-action/history.csv",
+   "sha256": "38d455747d5d706386a1274d5e3985f5e58b4fc24e437504de5fd40f156c8939"
+  },
+  {
+   "path": "data/shot-grammar/studios/disney-live-action/meta.csv",
+   "sha256": "9dbb79d8231b54abf3a4eed47b5f9e03de10d8559b8e36b9faac46615f6b2188"
+  },
+  {
+   "path": "data/shot-grammar/studios/disney-live-action/notation.csv",
+   "sha256": "11812255921d620b89ab71f48ece8af649fdd69eb5db5c36e948764d4680943e"
+  },
+  {
+   "path": "data/shot-grammar/studios/disney-live-action/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/studios/dreamworks-animation/bodies.csv",
+   "sha256": "2665ca20ba6b38b9be169997a369bcb0d9013c3e0e867158a6d1aca592e09588"
+  },
+  {
+   "path": "data/shot-grammar/studios/dreamworks-animation/history.csv",
+   "sha256": "4239eeda4c46371055592d970a05d86c51d5b60857dd585ad51b532e26bdb10a"
+  },
+  {
+   "path": "data/shot-grammar/studios/dreamworks-animation/meta.csv",
+   "sha256": "650d15b52d1433ff4009235d2d8d23798a4cd84b40b89c55d2011f094d3456d9"
+  },
+  {
+   "path": "data/shot-grammar/studios/dreamworks-animation/notation.csv",
+   "sha256": "d4a2b0e3a4a2282cac35e26c70a8c1d7c5cb8e6ea6d7a8b4b55d088deab98b41"
+  },
+  {
+   "path": "data/shot-grammar/studios/dreamworks-animation/style.csv",
+   "sha256": "b70ca791988288e7326eeaf9ea4bfaf7535662ba841fb6655fcbbf3b56023824"
+  },
+  {
+   "path": "data/shot-grammar/studios/focus-features/bodies.csv",
+   "sha256": "a11b7cea204ab7326e37222e1cb99bad3c61312c504e32535eaf4a81be35e712"
+  },
+  {
+   "path": "data/shot-grammar/studios/focus-features/history.csv",
+   "sha256": "c9dcd5e3334c79cba0f79872d6a162c5c650d69d08485fe531fc5c068c46a8d6"
+  },
+  {
+   "path": "data/shot-grammar/studios/focus-features/meta.csv",
+   "sha256": "52064e901e1ae24e4c45bdfa794c457d78cd04a7525b8315718a28131024ccd6"
+  },
+  {
+   "path": "data/shot-grammar/studios/focus-features/notation.csv",
+   "sha256": "11812255921d620b89ab71f48ece8af649fdd69eb5db5c36e948764d4680943e"
+  },
+  {
+   "path": "data/shot-grammar/studios/focus-features/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/studios/illumination/bodies.csv",
+   "sha256": "a11b7cea204ab7326e37222e1cb99bad3c61312c504e32535eaf4a81be35e712"
+  },
+  {
+   "path": "data/shot-grammar/studios/illumination/history.csv",
+   "sha256": "257d355ed5cac95ba6cd5982b5aed567dc9a08b2d61c4106ad26fe79bd94a92b"
+  },
+  {
+   "path": "data/shot-grammar/studios/illumination/meta.csv",
+   "sha256": "b6b509c1bd1373b5c11aba47981e91a8ebe8b39afeaaa43ceb59668910a85cc3"
+  },
+  {
+   "path": "data/shot-grammar/studios/illumination/notation.csv",
+   "sha256": "11812255921d620b89ab71f48ece8af649fdd69eb5db5c36e948764d4680943e"
+  },
+  {
+   "path": "data/shot-grammar/studios/illumination/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/studios/index.csv",
+   "sha256": "d654ca823f225cb7de0f9d027e30b69fa266527c5334b2b315d89eae71a59354"
+  },
+  {
+   "path": "data/shot-grammar/studios/industrial-light-magic/bodies.csv",
+   "sha256": "42bfd9535e32cec79b80f3755096f10cddc8018eb1e395e669d85f137cb842bf"
+  },
+  {
+   "path": "data/shot-grammar/studios/industrial-light-magic/history.csv",
+   "sha256": "160c1bdf1b20ca69d1ecb4b3d6abadd4e4dbc6e85e77571e34713c76911ede74"
+  },
+  {
+   "path": "data/shot-grammar/studios/industrial-light-magic/meta.csv",
+   "sha256": "1005e757c65d02bd40f8f7b1585728a9842f44eb35725c80ab7917e2f05c4ba5"
+  },
+  {
+   "path": "data/shot-grammar/studios/industrial-light-magic/notation.csv",
+   "sha256": "46dec22c5b0a608c8362d9d77f9ee876fc5bbf16cdbe46607fa42daa70934852"
+  },
+  {
+   "path": "data/shot-grammar/studios/industrial-light-magic/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/studios/ledger.csv",
+   "sha256": "8083b02b2affd6b1975aca3d909fb6bdcb88fc171ac75d8a1d057bcbf6115043"
+  },
+  {
+   "path": "data/shot-grammar/studios/legendary-pictures/bodies.csv",
+   "sha256": "520a1261ac204d66b6ca0828f785bb2b1100d4bc036ee1458588be6fe1abff0f"
+  },
+  {
+   "path": "data/shot-grammar/studios/legendary-pictures/history.csv",
+   "sha256": "3c2b9fa8a54a7d5f44288ccd9267376533b0b2a1d2f0227e57af0f18bf605b2d"
+  },
+  {
+   "path": "data/shot-grammar/studios/legendary-pictures/meta.csv",
+   "sha256": "ae2a1845fa15152d54d18781b97117162f27198436d7ba8e4e6e93a53c2460fc"
+  },
+  {
+   "path": "data/shot-grammar/studios/legendary-pictures/notation.csv",
+   "sha256": "1b6ce3c60413b5d71b04d8e94ee4bebfea6ae08459a64b022d7fa2e241c6ec59"
+  },
+  {
+   "path": "data/shot-grammar/studios/legendary-pictures/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/studios/lionsgate/bodies.csv",
+   "sha256": "a11b7cea204ab7326e37222e1cb99bad3c61312c504e32535eaf4a81be35e712"
+  },
+  {
+   "path": "data/shot-grammar/studios/lionsgate/history.csv",
+   "sha256": "729d1b118b3f0439e0fe38733d66a44ef8fe4c9f859aefe76146666501791608"
+  },
+  {
+   "path": "data/shot-grammar/studios/lionsgate/meta.csv",
+   "sha256": "0619d1022227ebccc85210464a45324c1da31d22f85ff297d1fc13dcda7aaeed"
+  },
+  {
+   "path": "data/shot-grammar/studios/lionsgate/notation.csv",
+   "sha256": "11812255921d620b89ab71f48ece8af649fdd69eb5db5c36e948764d4680943e"
+  },
+  {
+   "path": "data/shot-grammar/studios/lionsgate/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/studios/lucasfilm/bodies.csv",
+   "sha256": "c94878b26ceab75ff0059b19bfdb4f21aded4e0cb535dbc23bdc5ed7e45da678"
+  },
+  {
+   "path": "data/shot-grammar/studios/lucasfilm/history.csv",
+   "sha256": "09a7dc8f20e63a0eff6f38a976f9be04dc377146aaed78ecfd1e029ec2e05526"
+  },
+  {
+   "path": "data/shot-grammar/studios/lucasfilm/meta.csv",
+   "sha256": "29a8454aa878ea155af0335763ea847bb536a398347d1868371eaddf5bae6a79"
+  },
+  {
+   "path": "data/shot-grammar/studios/lucasfilm/notation.csv",
+   "sha256": "ed854ba4f340caa8ce192f69902cf7fbb103b753168f06b76f52e2ffcab8b88b"
+  },
+  {
+   "path": "data/shot-grammar/studios/lucasfilm/style.csv",
+   "sha256": "bcd2fb3bc294eae6f025fdae898c72070fc89cfc2f9e713a80fba7920ba919d4"
+  },
+  {
+   "path": "data/shot-grammar/studios/luma-pictures/bodies.csv",
+   "sha256": "a36623190c56f54dbea64d4a6ff321d2357cd43efea6d1c1770787e4da371613"
+  },
+  {
+   "path": "data/shot-grammar/studios/luma-pictures/history.csv",
+   "sha256": "ad841d76fa919aa1207b33735a830d0401bc046a69e285bf03c9206a0b398e12"
+  },
+  {
+   "path": "data/shot-grammar/studios/luma-pictures/meta.csv",
+   "sha256": "a23d8a293e9b26eebaa02277bf03e1586febb5d2a8db3fdc21b50a39bb2fd979"
+  },
+  {
+   "path": "data/shot-grammar/studios/luma-pictures/notation.csv",
+   "sha256": "e9114ccfc42996c0529b984ea2cef2c7eb0fcf2b556f3c9443f3bc2e3ba440dc"
+  },
+  {
+   "path": "data/shot-grammar/studios/luma-pictures/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/studios/marvel-studios/bodies.csv",
+   "sha256": "587e1f5a52fd3ad37c4a360138cbddfb543a43b1af9860c1415873fff8734b8f"
+  },
+  {
+   "path": "data/shot-grammar/studios/marvel-studios/history.csv",
+   "sha256": "0d29df3677ebf4833afa72e85615a567a21b8b932137d3014468b23e9d02b39c"
+  },
+  {
+   "path": "data/shot-grammar/studios/marvel-studios/meta.csv",
+   "sha256": "09a04306c7b852918b185547f46457c758b598b04758fd37934e3446f233cfb1"
+  },
+  {
+   "path": "data/shot-grammar/studios/marvel-studios/notation.csv",
+   "sha256": "70235a0a9dd5f6aaf7391d1db055174e2f8400071450757f94db09ba11dff27f"
+  },
+  {
+   "path": "data/shot-grammar/studios/marvel-studios/style.csv",
+   "sha256": "f3cdfbbe3a7bcec4f699db7e6ead1145681b1462e6c6124ef5e9737b95e02e8d"
+  },
+  {
+   "path": "data/shot-grammar/studios/miramax/bodies.csv",
+   "sha256": "a11b7cea204ab7326e37222e1cb99bad3c61312c504e32535eaf4a81be35e712"
+  },
+  {
+   "path": "data/shot-grammar/studios/miramax/history.csv",
+   "sha256": "5fdba82f8a326e23ccc4d567e4a0a77acb0020f00b28805a356b60c8907895b8"
+  },
+  {
+   "path": "data/shot-grammar/studios/miramax/meta.csv",
+   "sha256": "3af8caa822d82c6333bdce981e59d81ff7644c9629e9c1a3fab96298d5656ae5"
+  },
+  {
+   "path": "data/shot-grammar/studios/miramax/notation.csv",
+   "sha256": "11812255921d620b89ab71f48ece8af649fdd69eb5db5c36e948764d4680943e"
+  },
+  {
+   "path": "data/shot-grammar/studios/miramax/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/studios/neon/bodies.csv",
+   "sha256": "a11b7cea204ab7326e37222e1cb99bad3c61312c504e32535eaf4a81be35e712"
+  },
+  {
+   "path": "data/shot-grammar/studios/neon/history.csv",
+   "sha256": "cc043379cd6c28129758032999b36f5862c388b1e3afa15200628414d35243fd"
+  },
+  {
+   "path": "data/shot-grammar/studios/neon/meta.csv",
+   "sha256": "d167f44ea6bb9b5877a126fde69b7580db7aaba0c346fc898b9df1e423b0f8b8"
+  },
+  {
+   "path": "data/shot-grammar/studios/neon/notation.csv",
+   "sha256": "11812255921d620b89ab71f48ece8af649fdd69eb5db5c36e948764d4680943e"
+  },
+  {
+   "path": "data/shot-grammar/studios/neon/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/studios/netflix/bodies.csv",
+   "sha256": "899a5e40d181e19bed57ff217ba0cdd6f5bc51c62266a5ed235226e836a35487"
+  },
+  {
+   "path": "data/shot-grammar/studios/netflix/history.csv",
+   "sha256": "534f1ec85e70087f2af54d586c7efd9d2529cf69dbccda6f45412a1793eae8f4"
+  },
+  {
+   "path": "data/shot-grammar/studios/netflix/meta.csv",
+   "sha256": "cc811e6a58992a6d419520c2114674c4f2f8f6ed902010f10bb0b4a76804bc52"
+  },
+  {
+   "path": "data/shot-grammar/studios/netflix/notation.csv",
+   "sha256": "552ec29f89345db6a66ae3c7871a8a17381d4a5e6ec1d5d44a529126ff6475d3"
+  },
+  {
+   "path": "data/shot-grammar/studios/netflix/style.csv",
+   "sha256": "df3f8fce95eebd0269160428800c2c7d2b71e85ccdb5bbe6e67412d556c4e542"
+  },
+  {
+   "path": "data/shot-grammar/studios/new-line-cinema/bodies.csv",
+   "sha256": "a11b7cea204ab7326e37222e1cb99bad3c61312c504e32535eaf4a81be35e712"
+  },
+  {
+   "path": "data/shot-grammar/studios/new-line-cinema/history.csv",
+   "sha256": "bbae8a388b5fe5bc796c00493905b9acd03a0471a263fd1d116706c2383d9846"
+  },
+  {
+   "path": "data/shot-grammar/studios/new-line-cinema/meta.csv",
+   "sha256": "97cc52ab190d788715e556f888de5f826910b2ca3fbe43c4b0fc29fcc26159ee"
+  },
+  {
+   "path": "data/shot-grammar/studios/new-line-cinema/notation.csv",
+   "sha256": "11812255921d620b89ab71f48ece8af649fdd69eb5db5c36e948764d4680943e"
+  },
+  {
+   "path": "data/shot-grammar/studios/new-line-cinema/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/studios/notation.csv",
+   "sha256": "5f3fcdf90c294eaa16d175ee680678cf147eac5633b161e2124254307dfc72ff"
+  },
+  {
+   "path": "data/shot-grammar/studios/paramount-pictures/bodies.csv",
+   "sha256": "1aebcfc684a9d74b31b05d645831a8be39efe22027c222e61243f164a77e191d"
+  },
+  {
+   "path": "data/shot-grammar/studios/paramount-pictures/history.csv",
+   "sha256": "63c2a74e981c2f504b178925122cd795041de429f2fb5e99680b5889d7c8c88c"
+  },
+  {
+   "path": "data/shot-grammar/studios/paramount-pictures/meta.csv",
+   "sha256": "0a6f00eac28563b4471b1ad26ae01ff0ce55fd299d5874294bdf229d85af7d81"
+  },
+  {
+   "path": "data/shot-grammar/studios/paramount-pictures/notation.csv",
+   "sha256": "13409092f834b345000dbf1e30c624796353878638e20a0ec965bbc7621e56f0"
+  },
+  {
+   "path": "data/shot-grammar/studios/paramount-pictures/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/studios/paramount-vantage/bodies.csv",
+   "sha256": "a11b7cea204ab7326e37222e1cb99bad3c61312c504e32535eaf4a81be35e712"
+  },
+  {
+   "path": "data/shot-grammar/studios/paramount-vantage/history.csv",
+   "sha256": "0dda5b56379cca38e1cea7192a3ab46ec1c44db3eb8cc8da290c4fc350436ed6"
+  },
+  {
+   "path": "data/shot-grammar/studios/paramount-vantage/meta.csv",
+   "sha256": "d215aeb45bad9e55bfc12254203c991e8aa48ca2d16b66ec8b6566076a2ac19f"
+  },
+  {
+   "path": "data/shot-grammar/studios/paramount-vantage/notation.csv",
+   "sha256": "11812255921d620b89ab71f48ece8af649fdd69eb5db5c36e948764d4680943e"
+  },
+  {
+   "path": "data/shot-grammar/studios/paramount-vantage/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/studios/pixar/bodies.csv",
+   "sha256": "40d7380e75f8ce057792133946301accf0c94219c3a0f9b56d214c115fe7e6bb"
+  },
+  {
+   "path": "data/shot-grammar/studios/pixar/history.csv",
+   "sha256": "d045d5c57fef50986ab04bb08c1178c04c63e2f5e05fa1406466e3d90df23c8c"
+  },
+  {
+   "path": "data/shot-grammar/studios/pixar/meta.csv",
+   "sha256": "94ba3f390d1d518448fb28c91d5dd7809fca941e7bfe4316ed75e1d420ea856e"
+  },
+  {
+   "path": "data/shot-grammar/studios/pixar/notation.csv",
+   "sha256": "725bc4c1775b5c53ec7f2556c9a28bdf5c80687340a5d7de4510b2c456cb44c9"
+  },
+  {
+   "path": "data/shot-grammar/studios/pixar/style.csv",
+   "sha256": "049f8df08aadb959523524b34becac86e53f1beb36fd9d201437836f7d094f8b"
+  },
+  {
+   "path": "data/shot-grammar/studios/searchlight-pictures/bodies.csv",
+   "sha256": "a11b7cea204ab7326e37222e1cb99bad3c61312c504e32535eaf4a81be35e712"
+  },
+  {
+   "path": "data/shot-grammar/studios/searchlight-pictures/history.csv",
+   "sha256": "6ec9e1cc0659df0b9f136b2ced8858e5a344bfb76c4cdf86bf65151f04a448cf"
+  },
+  {
+   "path": "data/shot-grammar/studios/searchlight-pictures/meta.csv",
+   "sha256": "750430969a240f4e3e04d87e0f7918a4baf4acc56ca0c33f0a5aa25c077b44b0"
+  },
+  {
+   "path": "data/shot-grammar/studios/searchlight-pictures/notation.csv",
+   "sha256": "11812255921d620b89ab71f48ece8af649fdd69eb5db5c36e948764d4680943e"
+  },
+  {
+   "path": "data/shot-grammar/studios/searchlight-pictures/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/studios/serials.csv",
+   "sha256": "4906803cac730632b1dd7697f01a52cb7d902507d726e988ae6180e39230595d"
+  },
+  {
+   "path": "data/shot-grammar/studios/skydance-media/bodies.csv",
+   "sha256": "8263ca3c0f1739e3a6f678a52eb94453677ca067a695cd91a9810ff33237456a"
+  },
+  {
+   "path": "data/shot-grammar/studios/skydance-media/history.csv",
+   "sha256": "36ec967385c0e9b98903b9ccdd6285e053b1667e9b2b6e5a046d8785210d7144"
+  },
+  {
+   "path": "data/shot-grammar/studios/skydance-media/meta.csv",
+   "sha256": "1db846066a3b562efc14c1997bcf93dde5d7997eada831548b59d3a018780494"
+  },
+  {
+   "path": "data/shot-grammar/studios/skydance-media/notation.csv",
+   "sha256": "11812255921d620b89ab71f48ece8af649fdd69eb5db5c36e948764d4680943e"
+  },
+  {
+   "path": "data/shot-grammar/studios/skydance-media/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/studios/sony-pictures-classics/bodies.csv",
+   "sha256": "a11b7cea204ab7326e37222e1cb99bad3c61312c504e32535eaf4a81be35e712"
+  },
+  {
+   "path": "data/shot-grammar/studios/sony-pictures-classics/history.csv",
+   "sha256": "7ea19d104f4de603f5355aa151b2a9fde232a763627c69f01f818d9a50247f1e"
+  },
+  {
+   "path": "data/shot-grammar/studios/sony-pictures-classics/meta.csv",
+   "sha256": "f1dadeef105aa01e2ac788d6cf4d070cbda06530fdb52ba3dc354d75d70a5349"
+  },
+  {
+   "path": "data/shot-grammar/studios/sony-pictures-classics/notation.csv",
+   "sha256": "11812255921d620b89ab71f48ece8af649fdd69eb5db5c36e948764d4680943e"
+  },
+  {
+   "path": "data/shot-grammar/studios/sony-pictures-classics/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/studios/sony-pictures-imageworks/bodies.csv",
+   "sha256": "dcc903ab1fec76a23aa63fa143ee598317f4762e88f945f4de97cc1485530fbe"
+  },
+  {
+   "path": "data/shot-grammar/studios/sony-pictures-imageworks/history.csv",
+   "sha256": "0fd8cd8f6b152752381a5e777679edd6df65adc33fd5fbb54fdaa068b1cb4899"
+  },
+  {
+   "path": "data/shot-grammar/studios/sony-pictures-imageworks/meta.csv",
+   "sha256": "9b8ef823840ad6736d4071c2ad8ec7268923c48a909a744a6ed76a25ae911c21"
+  },
+  {
+   "path": "data/shot-grammar/studios/sony-pictures-imageworks/notation.csv",
+   "sha256": "6b3ce8f8e9d6af7ac1ea55993006e0e035822dcf7963ccd29e536899676d4478"
+  },
+  {
+   "path": "data/shot-grammar/studios/sony-pictures-imageworks/style.csv",
+   "sha256": "20aafb54df1cfd266deb7ecc8f18216f320d6063fd0cf2c717db921d0d793be1"
+  },
+  {
+   "path": "data/shot-grammar/studios/sony-pictures/bodies.csv",
+   "sha256": "0b215926ebbddfe6aa690343c1fc13607492304de0ba5e3b6a22f6094c758789"
+  },
+  {
+   "path": "data/shot-grammar/studios/sony-pictures/history.csv",
+   "sha256": "fdecee278841cf300531e6e3ad3df4a6dfd452f938dbe79a3fc5f3436f5bc0b6"
+  },
+  {
+   "path": "data/shot-grammar/studios/sony-pictures/meta.csv",
+   "sha256": "691dc378a22802a1af6b33d018d5c886231d5f6420a0c62dd7e06e4949a570ff"
+  },
+  {
+   "path": "data/shot-grammar/studios/sony-pictures/notation.csv",
+   "sha256": "b8358b2f93089acbd03955293e534cdf50b474d503f3d7f6189f8532977df652"
+  },
+  {
+   "path": "data/shot-grammar/studios/sony-pictures/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/studios/studios.csv",
+   "sha256": "23cb05ba208eac372243430398d49d3fa0c114e546e043e53c2afe9514468c07"
+  },
+  {
+   "path": "data/shot-grammar/studios/style.csv",
+   "sha256": "0ccc1afe6d9cbe4f4e2dfd75671115a1ec2299fcb8f79bf96179d2a2c1c8e780"
+  },
+  {
+   "path": "data/shot-grammar/studios/twentieth-century-studios/bodies.csv",
+   "sha256": "6b6f2df27a45d050485078fb676a6aaac97da82856829adf0ee8d13b56470cbd"
+  },
+  {
+   "path": "data/shot-grammar/studios/twentieth-century-studios/history.csv",
+   "sha256": "44f5773257fe6ed7267819583596cc61a22b1458d63d4dd7781b90678197c976"
+  },
+  {
+   "path": "data/shot-grammar/studios/twentieth-century-studios/meta.csv",
+   "sha256": "41f7dd4b94fa45e70025ac192f118ecc7e076da62f763d6de5f9f6c4e5d04ded"
+  },
+  {
+   "path": "data/shot-grammar/studios/twentieth-century-studios/notation.csv",
+   "sha256": "9a5ae23570435decc4d2bc2e3bb1ab1de8b9325e88cf72c083374106b0c4e435"
+  },
+  {
+   "path": "data/shot-grammar/studios/twentieth-century-studios/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/studios/universal-pictures/bodies.csv",
+   "sha256": "bd51f5f7db4549aee9e8ccab85f9e6df6eacbc9e6c9b93b9a9e5b627f811c09c"
+  },
+  {
+   "path": "data/shot-grammar/studios/universal-pictures/history.csv",
+   "sha256": "4465b99903aa8060138b91da24365735a615e6d15aceacd6bed2f41e117ce708"
+  },
+  {
+   "path": "data/shot-grammar/studios/universal-pictures/meta.csv",
+   "sha256": "7b25e06d62d550e6fcb78b821207504293cf3f79db283f136420b07b394c7ed9"
+  },
+  {
+   "path": "data/shot-grammar/studios/universal-pictures/notation.csv",
+   "sha256": "7983af598febf7446a9c1d6fdb73d2324f920cd44da9c678d565301c14336f8e"
+  },
+  {
+   "path": "data/shot-grammar/studios/universal-pictures/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/studios/walt-disney-animation/bodies.csv",
+   "sha256": "eb11796d1ef6dfa801cd0fabc5c5e18260a261365a3d7b2231c74db633b6c7f7"
+  },
+  {
+   "path": "data/shot-grammar/studios/walt-disney-animation/history.csv",
+   "sha256": "9b23ab9f1e45b69805686c60c7c9b955c0078b4a7a744ba97477c02f85dee7a8"
+  },
+  {
+   "path": "data/shot-grammar/studios/walt-disney-animation/meta.csv",
+   "sha256": "666d828fa3170ea91ab589000ea615db9598d545343857f6b72ac27ff845f215"
+  },
+  {
+   "path": "data/shot-grammar/studios/walt-disney-animation/notation.csv",
+   "sha256": "dbd09c523c4023843cd26fca206d31cf1f02e6ed95da64fe3b7d7dceb4ebcd41"
+  },
+  {
+   "path": "data/shot-grammar/studios/walt-disney-animation/style.csv",
+   "sha256": "96185c8df4a73a3942fb0a1424f2e8a4a271ce3d38870f14909e2778c85efb0d"
+  },
+  {
+   "path": "data/shot-grammar/studios/walt-disney-studios/bodies.csv",
+   "sha256": "f11eec809c09ff1b534f5e017ae45f940a9b68ec3bd029331af3b79ee2f948b7"
+  },
+  {
+   "path": "data/shot-grammar/studios/walt-disney-studios/history.csv",
+   "sha256": "7ba6c97f7a657e8445aff67c72888618e725d71a4e6367cf04a7fc89ff8c7de1"
+  },
+  {
+   "path": "data/shot-grammar/studios/walt-disney-studios/meta.csv",
+   "sha256": "9c0fc0fc50ecb13d5a5d968fe8fd72a2cefa1f671be91777e8809c2236ffc463"
+  },
+  {
+   "path": "data/shot-grammar/studios/walt-disney-studios/notation.csv",
+   "sha256": "5aefac3fd1a23d76b6699e1f433f25c7a46b327a4cb4de8c7ff1fef43bf86878"
+  },
+  {
+   "path": "data/shot-grammar/studios/walt-disney-studios/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/studios/warner-bros/bodies.csv",
+   "sha256": "28c5fd6569bdf5f0f4c4c1ad9bf056ad8717ecb5b468b3d596e8513534cff172"
+  },
+  {
+   "path": "data/shot-grammar/studios/warner-bros/history.csv",
+   "sha256": "71dab0baeb6b2cde22093bb193311d781be432237d180aa53fbe5224503317d7"
+  },
+  {
+   "path": "data/shot-grammar/studios/warner-bros/meta.csv",
+   "sha256": "242698bfb00fa6544fbcb3e16f29482be2223d50bd6253b50dbaa984b14cab28"
+  },
+  {
+   "path": "data/shot-grammar/studios/warner-bros/notation.csv",
+   "sha256": "2a36ebaddb4f520b9fd0d56a0c9474daea48d2be0af574f199e1e2ca7a5dcd46"
+  },
+  {
+   "path": "data/shot-grammar/studios/warner-bros/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/studios/westwyrd-federated-instruments/bodies.csv",
+   "sha256": "a11b7cea204ab7326e37222e1cb99bad3c61312c504e32535eaf4a81be35e712"
+  },
+  {
+   "path": "data/shot-grammar/studios/westwyrd-federated-instruments/history.csv",
+   "sha256": "70254c72cfec4d8c79c9961c94d9a39d02ba945dfcf002e656d29be2772d47da"
+  },
+  {
+   "path": "data/shot-grammar/studios/westwyrd-federated-instruments/meta.csv",
+   "sha256": "8a20a6063033c63823a6b0e9be025b5637b26040117591a0ccbef9a5b866748c"
+  },
+  {
+   "path": "data/shot-grammar/studios/westwyrd-federated-instruments/notation.csv",
+   "sha256": "11812255921d620b89ab71f48ece8af649fdd69eb5db5c36e948764d4680943e"
+  },
+  {
+   "path": "data/shot-grammar/studios/westwyrd-federated-instruments/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/studios/westwyrd-pictures/bodies.csv",
+   "sha256": "a11b7cea204ab7326e37222e1cb99bad3c61312c504e32535eaf4a81be35e712"
+  },
+  {
+   "path": "data/shot-grammar/studios/westwyrd-pictures/history.csv",
+   "sha256": "c55408bef2ac593227ec68d11ebd12a5d6cb1d784db25c96f8695c185265bba8"
+  },
+  {
+   "path": "data/shot-grammar/studios/westwyrd-pictures/meta.csv",
+   "sha256": "9ac9381b9c542ec28ea672b85ee9ec150c12d118359d39c4a727152cf056ec78"
+  },
+  {
+   "path": "data/shot-grammar/studios/westwyrd-pictures/notation.csv",
+   "sha256": "11812255921d620b89ab71f48ece8af649fdd69eb5db5c36e948764d4680943e"
+  },
+  {
+   "path": "data/shot-grammar/studios/westwyrd-pictures/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/studios/weta-fx/bodies.csv",
+   "sha256": "b60eb7cc2eaeaaaa0856c1cb60790083ba3c13832cc29357140830c21469283b"
+  },
+  {
+   "path": "data/shot-grammar/studios/weta-fx/history.csv",
+   "sha256": "b23ad67467a255a3c7e280ada982cbb74b1e9427e90d7d8bf3057d383955fcfb"
+  },
+  {
+   "path": "data/shot-grammar/studios/weta-fx/meta.csv",
+   "sha256": "1fc9d07d79ac22d11fc7b89a03f793e056e7a70861f9d572c39da4e1c5ef8ec9"
+  },
+  {
+   "path": "data/shot-grammar/studios/weta-fx/notation.csv",
+   "sha256": "0c10c2c5073daa5a1bc2b26b09b33d3ff07ef426a4e246261f82877137050175"
+  },
+  {
+   "path": "data/shot-grammar/studios/weta-fx/style.csv",
+   "sha256": "9b68d522d8173fc20eadd6e503fb93756500be0da363540be5e85e3a7bb5b611"
+  },
+  {
+   "path": "data/shot-grammar/taxonomy/camera-angle.csv",
+   "sha256": "959ae780fcc6bf36d57f099739b23a381513a62824d9f925898499bc348f00e8"
+  },
+  {
+   "path": "data/shot-grammar/taxonomy/camera-movement.csv",
+   "sha256": "f4e695280e6999a32399cea2f3865ced6f4eea3e2e4bf577ab343394dac9298f"
+  },
+  {
+   "path": "data/shot-grammar/taxonomy/continuity.csv",
+   "sha256": "d7abf56fe8cbbefae3e4b9911239c2c0223550460724b7e7b51fe7a21f01a138"
+  },
+  {
+   "path": "data/shot-grammar/taxonomy/grade.csv",
+   "sha256": "41c1e0eaf388fd9cea83c96319df43eb116fca107a7a9d442ca59d03310f2d2d"
+  },
+  {
+   "path": "data/shot-grammar/taxonomy/lens-focus.csv",
+   "sha256": "4e3334a4ed5fc6c99c64bfd55df6c462725b959b41be441d7c5ec88556b44a59"
+  },
+  {
+   "path": "data/shot-grammar/taxonomy/lighting.csv",
+   "sha256": "017cc672cd23e820e026de34a1279a3677bd9bfdcf8bfc1c5d839bae3cf004fe"
+  },
+  {
+   "path": "data/shot-grammar/taxonomy/rhythm.csv",
+   "sha256": "5f8d162c505f610ebf4b74c8f155cea4da0e0df7cdde7790dc326c89fcbace8c"
+  },
+  {
+   "path": "data/shot-grammar/taxonomy/shot-size.csv",
+   "sha256": "67c9f874773bd6d013b5e4fecb9f288866d22e2c2cd54ab39c62670712562281"
+  },
+  {
+   "path": "data/shot-grammar/taxonomy/shot-type.csv",
+   "sha256": "593ef674816bbedd35c3492e953a4ac3b5473018ae7a87495694d03d87f3a16f"
+  },
+  {
+   "path": "data/shot-grammar/taxonomy/transitions.csv",
+   "sha256": "9b93808da4fae653ff34777f38000c20a96da77a9e814078827582eb051178b0"
+  },
+  {
+   "path": "data/shot-grammar/westwyrd/boundaries.csv",
+   "sha256": "40a373ec60a6e19e58a30b68c160df4303bca9acc74a483eb368c3fc9a3440c1"
+  },
+  {
+   "path": "data/shot-grammar/westwyrd/eras.csv",
+   "sha256": "b3dce8072557caf4e7641e98853a63e020327aad56573cfcd6b02bc038e1ed17"
+  },
+  {
+   "path": "data/shot-grammar/westwyrd/evidence-fields.csv",
+   "sha256": "7fdd16088ef500becc3cf5cda0c08601c29c3c00a128e750027e0a67a659783b"
+  },
+  {
+   "path": "data/shot-grammar/westwyrd/family.csv",
+   "sha256": "be40bc7b11bb0ef4852c690dc703a011266acc1aee00cb424fc8179d04293905"
+  },
+  {
+   "path": "data/shot-grammar/westwyrd/layers.csv",
+   "sha256": "2ac9bd0cd10e6dd26726497ac701ffb3412d8075d66669f571d0ce8d5f7f969c"
+  },
+  {
+   "path": "data/shot-grammar/westwyrd/pins.csv",
+   "sha256": "23325668e91aee55dc7aaf9546a1049ba561acf6ed0487edcb079b1eaad6b9f1"
+  },
+  {
+   "path": "data/shot-grammar/westwyrd/seam-classes.csv",
+   "sha256": "ecaed4dd4a8682a67239570ca61f32007eaaa8367312a93c13da22a596b7169d"
+  },
+  {
+   "path": "data/shot-grammar/westwyrd/unit-scopes.csv",
+   "sha256": "4630ac84fea5becbda45abf3e95893aba7ed3bee46d484eec7c47f47436bd053"
+  },
+  {
+   "path": "docs/SHOT-GRAMMAR.md",
+   "sha256": "463459a12c20ebbef1c9dfaaedd35e7eccb1027ded316341fff046a9176f8547"
+  },
+  {
+   "path": "docs/STANDARDS.md",
+   "sha256": "011bec08f5ca04a280c498a0c1872053fbde0b7d8b921cf27b5ca51acb300f01"
+  },
+  {
+   "path": "docs/WESTWYRD-SHOT-GRAMMAR.md",
+   "sha256": "9f7d3e771010b604eb01bb81f35d1429de473c20fdf5e592a4cd62303d6817b6"
+  }
+ ]
+}

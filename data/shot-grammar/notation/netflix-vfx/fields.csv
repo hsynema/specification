@@ -1,0 +1,9 @@
+scheme,order,field,required,format,pattern,padding,separator_before,allowed_values,example,note,source_key
+netflix-vfx,1,showID,conditional,2-3 characters,"^[A-Za-z0-9]{2,3}$",none,,,AGM,"Required for series; optional for features. Project abbreviation — AGM for 'A Great Movie'.",netflix-vfx-naming
+netflix-vfx,2,episode,conditional,3 digits,^[0-9]{3}$,3 digits,_,,104,"Series only. Season digit followed by two episode digits — 104 is season 1 episode 4.",netflix-vfx-naming
+netflix-vfx,3,seq,optional,2-3 characters,"^[A-Za-z0-9]{2,3}$",none,_,,TCC,"Sequence abbreviation — TCC for 'The Car Chase'.",netflix-vfx-naming
+netflix-vfx,4,scene,conditional,3 digits,^[0-9]{3}$,3 digits,_,,067,"Scene number from the script or slate. Required when the production does not use sequences.",netflix-vfx-naming
+netflix-vfx,5,shotID,yes,3-4 digits,"^[0-9]{3,4}$","3-4 digits",_,,0010,"Assigned chronologically by sequence or scene, incrementing by 10s so a shot spotted later between 0010 and 0020 can take 0015.",netflix-vfx-naming
+netflix-vfx,6,task,encouraged,text,^[a-z]+$,none,_,comp|anim|roto|paint|fx|lighting,comp,"The work type — the department that rendered the version.",netflix-vfx-naming
+netflix-vfx,7,vendorID,conditional,2-3 characters,"^[A-Za-z0-9]{2,3}$",none,_,,NFX,"Required for series, encouraged elsewhere. Prevents two vendors producing the same version name.",netflix-vfx-naming
+netflix-vfx,8,version,yes,v + 3-4 digits,"^v[0-9]{3,4}$","3-4 digits",_,,v001,"Must begin with 'v'.",netflix-vfx-naming

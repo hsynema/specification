@@ -1,0 +1,2 @@
+slug,name,tier,parent,isdcf_code,etc_contributor,notes
+westwyrd-pictures,Westwyrd Pictures,generative-native,,,no,"No ISDCF studio code registered as of this build — recorded empty rather than reserved, because a code you have not registered is a code somebody else may hold. Its shot grammar is the SYN-layer vocabulary of H.SYN.EMA and is the only entry in this dataset written for generated images rather than captured ones."

@@ -1,0 +1,14 @@
+id,label,abbrev,aliases,category,scope,field,parent,text,hands_forward,accepts,local_status,note,provenance,source_key
+grade.stock.5219,Kodak 5219 tungsten,5219,Vision3 500T,grade,sequence,grade,grade.stock,"Kodak 5219 tungsten stock, warm shadow, fine grain",,,GROUNDED,"A named real stock — a token with a visual distribution behind it. SHOT-GRAMMAR §IV.",industry-standard,olympiad-shot-grammar
+grade.stock.250d,Vision3 250D,250D,,grade,sequence,grade,grade.stock,"Vision3 250D daylight stock, neutral, clean highlight roll-off",,,GROUNDED,,industry-standard,olympiad-shot-grammar
+grade.stock.eterna,Fuji Eterna,ETERNA,,grade,sequence,grade,grade.stock,"Fuji Eterna, muted green-leaning palette, soft contrast",,,GROUNDED,,industry-standard,olympiad-shot-grammar
+grade.stock.ektachrome,Ektachrome 100,EKT100,,grade,sequence,grade,grade.stock,"Ektachrome reversal, saturated, contrasty, cool bias",,,GROUNDED,,industry-standard,olympiad-shot-grammar
+grade.process.bleach,bleach bypass,BB,,grade,sequence,grade,grade.process,"bleach bypass, desaturated with crushed blacks and raised contrast",,,GROUNDED,,industry-standard,olympiad-shot-grammar
+grade.process.tealorange,teal-orange split,TO,,grade,sequence,grade,grade.process,"teal shadows against orange skin tones",,,GROUNDED,"The default blockbuster grade of the 2010s; discriminative precisely because it is so common.",industry-standard,olympiad-shot-grammar
+grade.process.desat,desaturated high-contrast,DHC,,grade,sequence,grade,grade.process,"desaturated palette, high contrast, near-monochrome",,,GROUNDED,,industry-standard,olympiad-shot-grammar
+grade.process.warmlow,warm low-key,WLK,,grade,sequence,grade,grade.process,"warm palette, low key, deep shadow",,,GROUNDED,,industry-standard,olympiad-shot-grammar
+grade.process.coolneutral,cool neutral,CN,,grade,sequence,grade,grade.process,"cool neutral palette, even contrast",,,GROUNDED,,industry-standard,olympiad-shot-grammar
+grade.process.hisat,high saturation,HISAT,chromatic intensity,grade,sequence,grade,grade.process,"vivid high-saturation palette, punctuative primary colour",,,GROUNDED,"The MCU register as described in criticism — 'chromatic intensity and richness'. See studios/marvel-studios.",critical-reading,commarts-marvel
+grade.process.pastel,pastel,PAST,,grade,sequence,grade,grade.process,"pale pastel palette, low contrast, bright",,,GROUNDED,,industry-standard,studiobinder-a24
+grade.process.monochrome,monochrome,BW,black and white,grade,sequence,grade,grade.process,"black and white, no chroma",,,GROUNDED,,industry-standard,studiobinder-shots
+grade.process.duotone,duotone,DUO,,grade,sequence,grade,grade.process,"two-colour palette, everything mapped between them",,,GROUNDED,,industry-standard,studiobinder-shots

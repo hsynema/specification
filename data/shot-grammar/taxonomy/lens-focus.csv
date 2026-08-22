@@ -1,0 +1,15 @@
+id,label,abbrev,aliases,category,scope,field,parent,text,hands_forward,accepts,local_status,note,provenance,source_key
+lens.focal.ultrawide,ultra wide,14MM,12mm|16mm,lens,sequence,lens,lens.focal,"ultra-wide lens, edge distortion, exaggerated depth",,,UNVERIFIED,"Focal length as a prompt token has a visual distribution but no camera behind it. Prefer describing the distortion.",industry-standard,studiobinder-shots
+lens.focal.wide,wide,24MM,21mm|25mm,lens,sequence,lens,lens.focal,"wide lens, deep space, near subject dominant",,,UNVERIFIED,,industry-standard,studiobinder-shots
+lens.focal.normal,normal,50MM,40mm|standard,lens,sequence,lens,lens.focal,"normal lens, human-scale perspective",,,UNVERIFIED,,industry-standard,studiobinder-shots
+lens.focal.portrait,portrait,85MM,75mm,lens,sequence,lens,lens.focal,"portrait lens, compressed background, shallow field",,,UNVERIFIED,,industry-standard,studiobinder-shots
+lens.focal.long,long,135MM,long lens|telephoto,lens,sequence,lens,lens.focal,"long lens, flattened planes, isolated subject",,,UNVERIFIED,,industry-standard,studiobinder-shots
+lens.dof.shallow,shallow depth of field,SDOF,,lens,sequence,lens,lens.dof,"shallow depth of field, background dissolved",,,GROUNDED,,industry-standard,studiobinder-shots
+lens.dof.deep,deep focus,DF,,lens,sequence,lens,lens.dof,"deep focus, near and far both sharp",,,GROUNDED,,industry-standard,studiobinder-shots
+lens.dof.split,split diopter,SPLIT,,lens,sequence,lens,lens.dof,"two planes sharp with a visible seam between",,,EXCLUDED,"A physical optic. No prompt token reproduces the seam reliably.",industry-standard,studiobinder-shots
+lens.format.spherical,spherical,SPH,,lens,sequence,lens,lens.format,"spherical lens rendering, round bokeh",,,GROUNDED,,industry-standard,studiobinder-shots
+lens.format.anamorphic,anamorphic,ANA,,lens,sequence,lens,lens.format,"anamorphic rendering, oval bokeh, horizontal flare",,,UNVERIFIED,"The flare is the legible half of the token; the squeeze is not, since aspect is a resolution choice here. See STANDARDS.md.",industry-standard,studiobinder-shots
+lens.artifact.flare,lens flare,FLARE,,lens,sequence,lens,lens.artifact,"visible lens flare from a light in frame",,,GROUNDED,,industry-standard,studiobinder-shots
+lens.artifact.vignette,vignette,VIG,,lens,sequence,lens,lens.artifact,"corners falling off in brightness",,,GROUNDED,,industry-standard,studiobinder-shots
+lens.artifact.halation,halation,HAL,,lens,sequence,lens,lens.artifact,"soft red bloom around highlights",,,UNVERIFIED,"A film-stock artifact. Reads on models trained over scanned-film captions; untested at 8 steps.",industry-standard,studiobinder-shots
+lens.artifact.grain,grain,GRN,,lens,sequence,lens,lens.artifact,"visible film grain structure",,,UNVERIFIED,"Competes with denoising at low step counts.",industry-standard,studiobinder-shots

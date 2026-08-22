@@ -1,0 +1,38 @@
+slug,body,role,since,public_artifact,note,source_key
+walt-disney-studios,MovieLabs,co-owner,,Ontology for Media Creation; 2030 Vision; Common Security Architecture,"MovieLabs is jointly run by Paramount, Sony Pictures, Universal, Walt Disney Pictures and Television, and Warner Bros. Its published ontology is the closest thing to a shot grammar these five studios have collectively put in public.",movielabs-about
+warner-bros,MovieLabs,co-owner,,Ontology for Media Creation; 2030 Vision,,movielabs-about
+universal-pictures,MovieLabs,co-owner,,Ontology for Media Creation; 2030 Vision,,movielabs-about
+paramount-pictures,MovieLabs,co-owner,,Ontology for Media Creation; 2030 Vision,,movielabs-about
+sony-pictures,MovieLabs,co-owner,,Ontology for Media Creation; 2030 Vision,,movielabs-about
+walt-disney-studios,ETC at USC,member organisation,,VFX Image Sequence Naming v1.0,"Listed as Disney/Marvel Studios.",etc-vfx-is-1.0
+marvel-studios,ETC at USC,member organisation,,VFX Image Sequence Naming v1.0,"Listed as Disney/Marvel Studios.",etc-vfx-is-1.0
+lucasfilm,ETC at USC,member organisation,,VFX Image Sequence Naming v1.0,"Listed as Lucasfilm/ILM.",etc-vfx-is-1.0
+twentieth-century-studios,ETC at USC,member organisation,,VFX Image Sequence Naming v1.0,"Listed as Fox Corp.",etc-vfx-is-1.0
+paramount-pictures,ETC at USC,member organisation,,VFX Image Sequence Naming v1.0,,etc-vfx-is-1.0
+universal-pictures,ETC at USC,working group chair,2020,VFX Image Sequence Naming v1.0,"Horst Sarubin of Universal Pictures chaired the Adaptive Production VFX Working Group that produced the spec.",etc-vfx-is-1.0
+warner-bros,ETC at USC,member organisation,,VFX Image Sequence Naming v1.0,,etc-vfx-is-1.0
+sony-pictures,ETC at USC,industry contributor,,VFX Image Sequence Naming v1.0,,etc-vfx-is-1.0
+dreamworks-animation,ETC at USC,industry contributor,,VFX Image Sequence Naming v1.0,,etc-vfx-is-1.0
+netflix,ETC at USC,industry contributor,,VFX Image Sequence Naming v1.0,,etc-vfx-is-1.0
+legendary-pictures,ETC at USC,industry contributor,,VFX Image Sequence Naming v1.0,,etc-vfx-is-1.0
+weta-fx,ETC at USC,industry contributor,,VFX Image Sequence Naming v1.0,,etc-vfx-is-1.0
+digital-domain,ETC at USC,industry contributor,,VFX Image Sequence Naming v1.0,,etc-vfx-is-1.0
+luma-pictures,ETC at USC,industry contributor,,VFX Image Sequence Naming v1.0,,etc-vfx-is-1.0
+walt-disney-studios,Academy Software Foundation,premier member,,OpenEXR; OpenTimelineIO; USD; OpenSubdiv; Ptex,"Listed as Walt Disney Studios. The Disney orbit contributes more public production-tooling standards than any other studio group.",aswf-members
+sony-pictures-imageworks,Academy Software Foundation,premier member,2018,OpenColorIO; Open Shading Language; Alembic; Field3D,"Sony Pictures Entertainment and Sony Pictures Imageworks joined together in 2018.",aswf-sony-wb
+warner-bros,Academy Software Foundation,member,2018,,"Joined alongside Sony in 2018. No Warner-originated project in the foundation's roster.",aswf-sony-wb
+amazon-mgm-studios,Academy Software Foundation,premier member,2019,,"Joined as Amazon Web Services rather than as the studio. The membership is the cloud business, which is a real distinction when reading it as studio participation.",aswf-netflix-aws
+apple-studios,Academy Software Foundation,premier member,2019,,"Apple joined at premier level in 2019, alongside Microsoft.",aswf-apple
+netflix,Academy Software Foundation,premier member,2019,,,aswf-netflix-aws
+dreamworks-animation,Academy Software Foundation,premier member,,OpenMoonRay,,aswf-members
+weta-fx,Academy Software Foundation,premier member,,,,aswf-members
+skydance-media,Academy Software Foundation,premier member,2025,,"Skydance Animation joined at premier level at Open Source Days 2025.",aswf-skydance
+universal-pictures,Academy Software Foundation,not a member,,,"Absent from the published member roster. Recorded because the absence is itself the finding — Universal and Paramount reach the public standards surface through MovieLabs and ETC, not through open source.",aswf-members
+paramount-pictures,Academy Software Foundation,not a member,,,"Absent from the published member roster.",aswf-members
+walt-disney-animation,open source programme,publisher,,Ptex; SeExpr; Partio; Moana Island Scene dataset; Cloud dataset,"Published under the Walt Disney Animation Studios open source programme, with the production datasets released from SIGGRAPH 2017 onward.",wdas-opensource
+pixar,open source programme,publisher,,Universal Scene Description; RenderMan; OpenSubdiv; OpenTimelineIO,"OpenTimelineIO originated at Pixar and is now an Academy Software Foundation project. It is the only publicly governed schema that describes an edit — shots, tracks, transitions, markers — as data.",otio
+industrial-light-magic,open source programme,publisher,,OpenEXR; Alembic,"Alembic co-developed with Sony Pictures Imageworks.",aswf-members
+sony-pictures-imageworks,open source programme,publisher,,OpenColorIO; Open Shading Language; Alembic; Field3D; Maya Reticle,,imageworks-opensource
+netflix,partner help centre,publisher,,VFX Shot and Version Naming; VFX Plate Naming; Approved Camera list,"The only studio in this table publishing a shot-naming template rather than a schema or a renderer.",netflix-vfx-naming
+amazon-mgm-studios,partner portal,publisher,,Prime Video Global Content Guide; Asset Technical Specifications,"Distribution-side delivery requirements — resolution, HDR, frame rate, mezzanine conformance. Says nothing about how a shot is named during production.",amazon-content-guide
+apple-studios,developer documentation,publisher,,Apple Immersive Video Format; AIVU; AIME; Apple Spatial Audio Format; ProRes,"Apple documents a capture and delivery format in public detail no other studio here matches — MV-HEVC at 4320x4320 and 90fps, P3 D65 PQ, embedded lens projection metadata. It is a format spec, not a shot grammar.",apple-aiv

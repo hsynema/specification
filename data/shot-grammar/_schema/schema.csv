@@ -1,0 +1,40 @@
+file,rows,columns,column_names,purpose
+_schema/enums.csv,55,3,enum|value|definition,"Every closed vocabulary the dataset uses, with definitions."
+_schema/schema.csv,39,5,file|rows|columns|column_names|purpose,This file. What each CSV holds and what its columns are.
+_schema/sources.csv,55,6,source_key|title|publisher|year|url|kind,Every source cited by a source_key anywhere in the dataset.
+notation/etc-movielabs-vfx-is/fields.csv,13,12,scheme|order|field|required|format|pattern|padding|separator_before|allowed_values|example|note|source_key,Field-by-field grammar for the etc-movielabs-vfx-is scheme.
+notation/etc-movielabs-vfx-is/vocab-image-type.csv,22,6,scheme|code|label|group|definition|source_key,Controlled vocabulary for one field of the etc-movielabs-vfx-is scheme.
+notation/isdcf-dcnc/fields.csv,12,12,scheme|order|field|required|format|pattern|padding|separator_before|allowed_values|example|note|source_key,Field-by-field grammar for the isdcf-dcnc scheme.
+notation/isdcf-dcnc/vocab-content-type.csv,16,5,scheme|code|label|definition|source_key,Controlled vocabulary for one field of the isdcf-dcnc scheme.
+notation/movielabs-omc/fields.csv,3,12,scheme|order|field|required|format|pattern|padding|separator_before|allowed_values|example|note|source_key,Field-by-field grammar for the movielabs-omc scheme.
+notation/movielabs-omc/vocab-entity.csv,21,6,scheme|code|label|group|definition|source_key,Controlled vocabulary for one field of the movielabs-omc scheme.
+notation/netflix-vfx/fields.csv,8,12,scheme|order|field|required|format|pattern|padding|separator_before|allowed_values|example|note|source_key,Field-by-field grammar for the netflix-vfx scheme.
+notation/olympiad-cachekey/fields.csv,8,12,scheme|order|field|required|format|pattern|padding|separator_before|allowed_values|example|note|source_key,Field-by-field grammar for the olympiad-cachekey scheme.
+notation/schemes.csv,7,13,scheme|title|owner|kind|delimiter|subfield_delimiter|case|field_count|parseable|template|example|provenance|source_key,"One row per identifier grammar: owner, delimiter, template, whether it parses."
+notation/slate-scene/fields.csv,6,12,scheme|order|field|required|format|pattern|padding|separator_before|allowed_values|example|note|source_key,Field-by-field grammar for the slate-scene scheme.
+registries/isdcf-studio-codes.csv,741,2,code|studio,"The full ISDCF DCNC studio code registry, as published."
+studios/bodies.csv,37,7,slug|body|role|since|public_artifact|note|source_key,"Which standards bodies each studio sits in, in what role, and what that body published."
+studios/index.csv,37,13,serial|slug|name|tier|isdcf_code|digest|group_digest|revisions|notation_rows|documented_rows|style_rows|body_rows|directory,"Generated. One row per studio directory with its serial, digests and row counts."
+studios/ledger.csv,37,8,rev|date|serial|slug|digest|group_digest|prev|link,Generated. The hash chain — one row per sealed revision of a studio record.
+studios/notation.csv,58,7,slug|scheme|key|value|status|note|source_key,"What each studio publishes, contributes to, or keeps behind a portal."
+studios/serials.csv,37,5,slug|serial|allocated|retired|note,Permanent serial per studio. Append-only; a serial is never reused or re-derived.
+studios/studios.csv,37,7,slug|name|tier|parent|isdcf_code|etc_contributor|notes,One row per studio. Source of truth for the per-studio directories.
+studios/style.csv,23,8,slug|axis|taxonomy_id|value|confidence|note|provenance|source_key,"What is attributable to each studio visually, with a confidence."
+taxonomy/camera-angle.csv,11,15,id|label|abbrev|aliases|category|scope|field|parent|text|hands_forward|accepts|local_status|note|provenance|source_key,"Camera position relative to the subject, and its notation."
+taxonomy/camera-movement.csv,25,15,id|label|abbrev|aliases|category|scope|field|parent|text|hands_forward|accepts|local_status|note|provenance|source_key,"The single camera move, with what it hands forward and what it accepts."
+taxonomy/continuity.csv,9,15,id|label|abbrev|aliases|category|scope|field|parent|text|hands_forward|accepts|local_status|note|provenance|source_key,Link modes and the pin list — what must not drift across a seam.
+taxonomy/grade.csv,13,15,id|label|abbrev|aliases|category|scope|field|parent|text|hands_forward|accepts|local_status|note|provenance|source_key,"Named stocks, processes and palettes."
+taxonomy/lens-focus.csv,14,15,id|label|abbrev|aliases|category|scope|field|parent|text|hands_forward|accepts|local_status|note|provenance|source_key,"Focal length, depth of field, format and optical artifact."
+taxonomy/lighting.csv,19,15,id|label|abbrev|aliases|category|scope|field|parent|text|hands_forward|accepts|local_status|note|provenance|source_key,"Source, direction, quality and ratio."
+taxonomy/rhythm.csv,9,15,id|label|abbrev|aliases|category|scope|field|parent|text|hands_forward|accepts|local_status|note|provenance|source_key,Cutting rate and shot-length pattern.
+taxonomy/shot-size.csv,14,15,id|label|abbrev|aliases|category|scope|field|parent|text|hands_forward|accepts|local_status|note|provenance|source_key,"How much of the subject the frame holds, and its notation."
+taxonomy/shot-type.csv,13,15,id|label|abbrev|aliases|category|scope|field|parent|text|hands_forward|accepts|local_status|note|provenance|source_key,"What the shot is for — relational, subjective, coverage."
+taxonomy/transitions.csv,13,15,id|label|abbrev|aliases|category|scope|field|parent|text|hands_forward|accepts|local_status|note|provenance|source_key,How one shot joins the next.
+westwyrd/boundaries.csv,11,5,order|boundary|whose_job_it_is|layer|origin,"What a valid file does not establish, and whose job each of those is."
+westwyrd/eras.csv,5,9,era|period|medium|seam_mechanism|state_cleared|clearance_is_in_band|joint_inspectable_by|failure_when_botched|source_note,"The five eras of the seam — the rationale table, with what each era could inspect at the joint."
+westwyrd/evidence-fields.csv,8,5,order|field|source|definition|shot_grammar_note,"The E-layer record, and the one field this grammar proposes adding to it."
+westwyrd/family.csv,3,9,member|extension|magic|revision|status|scope|relationship|note|source,"The .syn single-work object, the H.SYN.EMA compound container, and this grammar — scope and relationship of each."
+westwyrd/layers.csv,5,7,letter|layer|track|role|carries|shot_grammar_lives_here|source,"H.SYN.EMA's five layers, their tracks, and which of them this grammar touches."
+westwyrd/pins.csv,9,8,pin|code|measured_on|method|tolerance_unit|default_tolerance_milli|breaks_first_on|honest_limit,"The eight pins that decompose drift, each with a measurement method, a tolerance in thousandths, and its honest limit."
+westwyrd/seam-classes.csv,8,10,code|label|unit|forces_intra|intra_condition|delta_allowed|pins_asserted|prior_era_counterpart|definition|refuses_when,The seven seam classes and how each maps onto the encoder's intra-versus-predicted decision.
+westwyrd/unit-scopes.csv,17,7,scope|unit_kind|field|taxonomy_file|dirties|definition|why_this_scope,"The shot vector by coding unit — what an SPS may fix, an I-Node may say, and a P-Node delta may contain."

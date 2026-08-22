@@ -1,0 +1,38 @@
+serial,slug,name,tier,isdcf_code,digest,group_digest,revisions,notation_rows,documented_rows,style_rows,body_rows,directory
+SG-001,walt-disney-studios,The Walt Disney Studios,major,DI,c0b283abb1192f42,e28aa1ec7fa3e8bc,1,4,1,0,3,studios/walt-disney-studios
+SG-002,disney-live-action,Disney Live Action,major-label,DLA,38bd3de60111713f,dc1d941c81a7350d,1,0,0,0,0,studios/disney-live-action
+SG-003,walt-disney-animation,Walt Disney Animation Studios,animation,WDAS,9f7537c860eb3ca2,10b57c19483d4b0c,1,2,2,1,1,studios/walt-disney-animation
+SG-004,pixar,Pixar Animation Studios,animation,PXR,5df9f99dec9d51a8,4f2b22054581bddc,1,2,2,2,1,studios/pixar
+SG-005,marvel-studios,Marvel Studios,major-label,MRV,b6aac0c127f043e4,8b1fea3b86f581af,1,1,0,4,1,studios/marvel-studios
+SG-006,lucasfilm,Lucasfilm Ltd.,major-label,LFLM,59bf4a68389168c2,bb1e4e7e163a356e,1,1,1,2,1,studios/lucasfilm
+SG-007,twentieth-century-studios,20th Century Studios,major-label,TCS,c8397b9188d1de1a,9b595d22b4fa997c,1,1,0,0,1,studios/twentieth-century-studios
+SG-008,searchlight-pictures,Searchlight Pictures,major-label,SLP,7d191afbb4f61487,aab65c2d558bba38,1,0,0,0,0,studios/searchlight-pictures
+SG-009,warner-bros,Warner Bros. Entertainment,major,WR,8bfe0d2ae2006f6f,ad886982540ccc98,1,4,1,0,3,studios/warner-bros
+SG-010,new-line-cinema,New Line Cinema,major-label,NT,3bf11f5350ee1b7c,6738c9d6ac365232,1,0,0,0,0,studios/new-line-cinema
+SG-011,universal-pictures,Universal Pictures,major,UP,14b3f3266a85d267,2731fb76738d17cb,1,5,3,0,3,studios/universal-pictures
+SG-012,focus-features,Focus Features,major-label,FF,c832940a5a945796,1f3bf3023a4587ed,1,0,0,0,0,studios/focus-features
+SG-013,dreamworks-animation,DreamWorks Animation,animation,DA,53d323e4af598bf9,ff77b51ad9b0c6dd,1,1,0,1,2,studios/dreamworks-animation
+SG-014,illumination,Illumination,animation,,16dff5c66d134550,58d397768358efa0,1,0,0,0,0,studios/illumination
+SG-015,amblin-entertainment,Amblin Entertainment,mini-major,AMBL,0d6b3c98ef599af4,5b696ad5c47d8bb3,1,0,0,0,0,studios/amblin-entertainment
+SG-016,paramount-pictures,Paramount Pictures,major,PC,cd387c1540323db1,60be77fff02e0fc1,1,4,1,0,3,studios/paramount-pictures
+SG-017,paramount-vantage,Paramount Vantage,major-label,PV,5899d9786091de68,3008e8c6b5c05ec7,1,0,0,0,0,studios/paramount-vantage
+SG-018,sony-pictures,Sony Pictures Entertainment,major,SPE,7f1c6c479ce268a9,7a72d72399d0a3a7,1,4,1,0,2,studios/sony-pictures
+SG-019,sony-pictures-classics,Sony Pictures Classics,major-label,SPC,4cd3be9a5c7b860c,95f7623b56b081a9,1,0,0,0,0,studios/sony-pictures-classics
+SG-020,sony-pictures-imageworks,Sony Pictures Imageworks,animation,,83170bc12967d2fa,b43c145c82b12332,1,1,1,2,2,studios/sony-pictures-imageworks
+SG-021,amazon-mgm-studios,Amazon MGM Studios,streamer,AMGM,14c88d76ee8b7ad3,577d4260bc65c26b,1,4,3,0,2,studios/amazon-mgm-studios
+SG-022,apple-studios,Apple Studios,streamer,APL,002ffd355be92f97,632c0f3b68267d9b,1,6,5,0,2,studios/apple-studios
+SG-023,netflix,Netflix,streamer,NET,b217f97b72b9998c,12015cb66622dc7a,1,11,10,1,3,studios/netflix
+SG-024,a24,A24,mini-major,A24,9fb684bfff557cfc,2a54fdc8b622ec8a,1,0,0,7,0,studios/a24
+SG-025,lionsgate,Lions Gate Entertainment,mini-major,LION,48de1d299941f9a6,87b01da98b11705e,1,0,0,0,0,studios/lionsgate
+SG-026,blumhouse,Blumhouse Productions,mini-major,BH,896910a1471adb95,a912f80d0a31682e,1,0,0,3,0,studios/blumhouse
+SG-027,legendary-pictures,Legendary Entertainment,mini-major,LP,e05a5ba743bf2ecd,8175a5209e7655b1,1,1,0,0,1,studios/legendary-pictures
+SG-028,skydance-media,Skydance Media,mini-major,SDM,878f442b7b0dfe4e,c5a702c657f6ad12,1,0,0,0,1,studios/skydance-media
+SG-029,neon,Neon,mini-major,NEON,34365ae78365d2b5,742ed15bac0ef776,1,0,0,0,0,studios/neon
+SG-030,miramax,Miramax,mini-major,MRMX,79a4c2234f3c98cf,77e9a315016eb06e,1,0,0,0,0,studios/miramax
+SG-031,annapurna-pictures,Annapurna Pictures,mini-major,AP,569a093e0f4cd9fd,c744ca2b1131943a,1,0,0,0,0,studios/annapurna-pictures
+SG-032,industrial-light-magic,Industrial Light & Magic,vfx-house,ILM,4086424ff2867f04,37791166666a7554,1,3,3,0,1,studios/industrial-light-magic
+SG-033,digital-domain,Digital Domain,vfx-house,,c7e72ca58bb00cc8,842fe2de5c395a0f,1,1,1,0,1,studios/digital-domain
+SG-034,weta-fx,Wētā FX,vfx-house,,18412871127ca306,0fc35820445af1b3,1,1,0,0,2,studios/weta-fx
+SG-035,luma-pictures,Luma Pictures,vfx-house,,f2aa877262ab6b83,10450c3695502ac6,1,1,0,0,1,studios/luma-pictures
+SG-036,westwyrd-pictures,Westwyrd Pictures,generative-native,,dfdc814347e62337,d08a87259950c357,1,0,0,0,0,studios/westwyrd-pictures
+SG-037,westwyrd-federated-instruments,Westwyrd Federated Instruments,standards-body,,1ff25886abb87742,04aa4f152c704225,1,0,0,0,0,studios/westwyrd-federated-instruments

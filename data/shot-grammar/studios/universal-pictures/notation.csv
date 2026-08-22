@@ -1,0 +1,6 @@
+slug,scheme,key,value,status,note,source_key
+universal-pictures,movielabs-omc-slate,governance,co-owner,documented,"Universal is both a MovieLabs owner and the chair of the ETC working group that produced the VFX naming spec — the widest public standards footprint of the five, and still no Universal-branded template.",movielabs-omc-context
+universal-pictures,movielabs-omc-slate,adoption,undetermined,unknown,See walt-disney-studios.,movielabs-omc-context
+universal-pictures,etc-movielabs-vfx-is,showid-prefix,un,documented,'un' is the spec's own worked example for the NBCU studio prefix — un-ff25.,etc-vfx-is-1.0
+universal-pictures,etc-movielabs-vfx-is,working-group,chair,documented,Horst Sarubin of Universal Pictures chaired the ETC Adaptive Production VFX Working Group.,etc-vfx-is-1.0
+universal-pictures,production-naming-spec,availability,none found,unknown,"No public Universal-branded naming specification found, despite Universal chairing the cross-industry one. NBCUniversal's published guidelines are linear commercial delivery, not feature post.",

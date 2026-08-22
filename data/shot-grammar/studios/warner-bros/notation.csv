@@ -1,0 +1,5 @@
+slug,scheme,key,value,status,note,source_key
+warner-bros,movielabs-omc-slate,governance,co-owner,documented,See walt-disney-studios. The ontology is the studio-backed public grammar; adoption remains each member's own decision.,movielabs-omc-context
+warner-bros,movielabs-omc-slate,adoption,undetermined,unknown,See walt-disney-studios — the same disclaimer covers every member.,movielabs-omc-context
+warner-bros,etc-movielabs-vfx-is,participation,contributor,contributor,Warner Bros. Entertainment is an ETC member organisation.,etc-vfx-is-1.0
+warner-bros,production-naming-spec,availability,none found,unknown,"No public naming specification found, and no Warner-originated project in the Academy Software Foundation roster. Warner's public standards presence is participation in bodies rather than published artifacts.",

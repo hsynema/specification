@@ -1,0 +1,7 @@
+slug,scheme,key,value,status,note,source_key
+apple-studios,apple-immersive-video,capture-format,MV-HEVC 4320x4320 at 90fps,documented,"The Apple Immersive Video import format, documented publicly at developer level.",apple-aiv-utility
+apple-studios,apple-immersive-video,colour,P3 D65 PQ,documented,,apple-aiv-utility
+apple-studios,apple-immersive-video,audio,Apple Spatial Audio Format in MP4,documented,Fifth-order ambisonics and object-based audio recommended.,apple-aiv-utility
+apple-studios,apple-immersive-video,metadata,AIME with Immersive Lens Profile Data,documented,An AIVU file requires an accompanying Apple Immersive Media Embedded metadata file carrying lens projection data. Lens calibration is embedded at the point of capture.,apple-aiv-utility
+apple-studios,apple-immersive-video,acuity-floor,40 pixels per degree minimum; 60 target,documented,"Apple states 60 ppd as the target equating to 20/20 acuity. A capture requirement expressed as a perceptual threshold rather than a resolution — unusual, and specific to Apple.",apple-aiv
+apple-studios,production-naming-spec,availability,none found,unknown,"Apple publishes a capture and delivery format in more public detail than any other studio here, and no shot-naming convention at all. The two are different questions and Apple answers only one.",

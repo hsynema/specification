@@ -1,0 +1,12 @@
+order,boundary,whose_job_it_is,layer,origin
+1,"that the work is good","an audience, a critic — never a checksum",all,hsynema-spec
+2,"that a credit is true","a contract, a court",E,hsynema-spec
+3,"that a right is held","a rights holder, a registry",E,hsynema-spec
+4,"that the maker meant well","no cryptography can read intent",E,hsynema-spec
+5,"that the prompt is real","the world, not the seed",SYN,hsynema-spec
+6,"that the bytes in cache are faithful to the instructions","re-derivation, not the header — a cache hit is graded reused, never proved reproduced",H,hsynema-spec
+7,"that the proxy's frames are the instructions' output","the synthesis stage — the proxy answers does it play, the instruction stream answers is it faithful, and only the second is a proof",A,hsynema-spec
+8,"that a signature says who sat at the machine","a P-256 attestation proves a machine held a key and witnessed a computation. A coerced signature is a valid signature.",E,hsynema-spec
+9,"that a frame nobody re-synthesised is correct","stage 8, which is optional and expensive. A stage that could not run is reported SKIPPED and named individually — three frames unchecked must never read as three frames fine.",SYN,hsynema-spec
+10,"that a declared seam class is the right one for the shot","the director. The grammar checks that a MATCH's invariant agrees and that a HOLD's delta is a pure advance; it has no opinion on whether the cut belongs there.",SYN,westwyrd-shot-grammar
+11,"that a pin measured within tolerance means continuity held","the pin set is a decomposition of drift, not a definition of it. Something can break that no pin measures, and the grammar reports which pins ran rather than implying they were sufficient.",SYN,westwyrd-shot-grammar

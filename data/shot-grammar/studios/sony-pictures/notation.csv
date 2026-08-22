@@ -1,0 +1,5 @@
+slug,scheme,key,value,status,note,source_key
+sony-pictures,movielabs-omc-slate,governance,co-owner,documented,See walt-disney-studios.,movielabs-omc-context
+sony-pictures,movielabs-omc-slate,adoption,undetermined,unknown,See walt-disney-studios.,movielabs-omc-context
+sony-pictures,etc-movielabs-vfx-is,participation,contributor,contributor,Sony Pictures Entertainment is listed among ETC industry contributors.,etc-vfx-is-1.0
+sony-pictures,production-naming-spec,availability,none found,unknown,"No public naming specification from the studio. Sony's public surface is Imageworks' open source, which is pipeline tooling rather than naming.",

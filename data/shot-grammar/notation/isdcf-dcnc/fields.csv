@@ -1,0 +1,13 @@
+scheme,order,field,required,format,pattern,padding,separator_before,allowed_values,example,note,source_key
+isdcf-dcnc,1,Title,yes,FilmTitle,^[A-Za-z0-9-]+$,none,,,MovieTitle,Camel case with dashes for sub-fields. No underscores — underscore is the field separator.,isdcf-dcnc
+isdcf-dcnc,2,ContentType,yes,3-letter code{-modifier},^[A-Z]{3}(-[A-Za-z0-9]+)*$,none,_,see vocab-content-type.csv,FTR,16 registered codes. Modifiers append after a dash.,isdcf-dcnc
+isdcf-dcnc,3,AspectRatio,yes,container{-image},^[FSC](-[0-9]{3})?$,none,_,F|S|C,F,"F flat 1.85 container, S scope 2.39 container, C full container. An optional dash sub-field gives the image aspect within the container.",isdcf-dcnc
+isdcf-dcnc,4,Language,yes,<audio>-<subtitle>{-<caption>},^[A-Za-z]{2}-[A-Za-z]{2}$,none,_,,EN-XX,Audio language then subtitle language. XX means no subtitles. QMS/CCAP variants extend the field.,isdcf-dcnc
+isdcf-dcnc,5,Territory,yes,<territory>{-<rating>},^[A-Z]{2,3}(-[A-Za-z0-9]+)?$,none,_,INT|US|GB|<ISO 3166>,INT,INT is the international version. Rating is appended after a dash where one applies.,isdcf-dcnc
+isdcf-dcnc,6,AudioConfig,yes,channel code{-modifier},^[0-9A-Za-z]+(-[A-Za-z0-9]+)*$,none,_,10|20|51|71|IAB|ATMOS,51,"10 mono, 20 stereo, 51 five point one, 71 seven point one. Immersive formats use their own code.",isdcf-dcnc
+isdcf-dcnc,7,Resolution,yes,2K|4K,^(2K|4K)$,none,_,2K|4K,2K,,isdcf-dcnc
+isdcf-dcnc,8,Studio,yes,2-4 characters or NULL,"^([A-Z0-9]{2,4}|NULL)$",none,_,see registries/isdcf-studio-codes.csv,NULL,The registered studio code. This is the one field in any public naming scheme that varies by studio and is centrally registered. Fill with NULL when it does not apply.,isdcf-studios
+isdcf-dcnc,9,Date,yes,YYYYMMDD,^[0-9]{8}$,8 digits,_,,20230622,The package creation date.,isdcf-dcnc
+isdcf-dcnc,10,Facility,yes,2-4 characters or NUL,"^([A-Z0-9]{2,4}|NUL)$",none,_,see ISDCF facility registry,NUL,The mastering facility code. Registered separately from studio codes.,isdcf-dcnc
+isdcf-dcnc,11,Standard,yes,SMPTE|IOP,^(SMPTE|IOP)$,none,_,SMPTE|IOP,SMPTE,Which digital cinema packaging standard the package conforms to.,isdcf-dcnc
+isdcf-dcnc,12,PackageType,yes,OV|VF{-modifier},^(OV|VF)(-[A-Za-z0-9]+)*$,none,_,OV|VF,OV,"OV original version, VF version file. Every field must carry an entry — non-relevant fields are filled with NULL rather than left empty.",isdcf-dcnc

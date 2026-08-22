@@ -1,0 +1,2 @@
+slug,axis,taxonomy_id,value,confidence,note,provenance,source_key
+walt-disney-animation,method,,virtual camera in-pipeline,high,"The camera capture system was built inside the existing Maya pipeline rather than beside it, so it reaches every asset and every scene-assembly tool. Continuous with the studio's camera engineering lineage — multiplane in the 1930s, CAPS in the 1990s.",trade-reported,awn-disney-vcam

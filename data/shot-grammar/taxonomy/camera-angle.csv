@@ -1,0 +1,12 @@
+id,label,abbrev,aliases,category,scope,field,parent,text,hands_forward,accepts,local_status,note,provenance,source_key
+angle.eye,eye level,EL,eye-level,framing,shot,camera,angle.vertical,camera at the subject's eye level,,,GROUNDED,The neutral. Not a choice unless stated against another.,industry-standard,studiobinder-abbrev
+angle.high,high angle,HA,HAS|high angle shot,framing,shot,camera,angle.vertical,"camera above the subject, looking down",,,GROUNDED,,industry-standard,studiobinder-abbrev
+angle.low,low angle,LA,LAS|low angle shot,framing,shot,camera,angle.vertical,"camera below the subject, looking up",,,GROUNDED,The superhero-genre default. See studios/marvel-studios.,industry-standard,studiobinder-abbrev
+angle.overhead,overhead,OH,birds eye|BEV|top shot,framing,shot,camera,angle.vertical,"camera directly above, looking straight down",,,GROUNDED,,industry-standard,studiobinder-shots
+angle.ground,ground level,GL,,framing,shot,camera,angle.vertical,camera on the ground plane,,,GROUNDED,,industry-standard,studiobinder-shots
+angle.aerial,aerial,AER,drone,framing,shot,camera,angle.vertical,"camera high above the scene, moving",,,UNVERIFIED,Almost always carries motion; rarely legal as a static.,industry-standard,studiobinder-shots
+angle.dutch,dutch angle,DUTCH,canted|oblique|DA,framing,shot,camera,angle.roll,camera rolled off horizontal,,,GROUNDED,"A roll, not a rotation over time. Static frame with a tilted horizon.",industry-standard,studiobinder-shots
+angle.profile,profile,PRO,,framing,shot,camera,angle.horizontal,camera at ninety degrees to the subject's facing,,,GROUNDED,,industry-standard,studiobinder-shots
+angle.frontal,frontal,FRT,head-on,framing,shot,camera,angle.horizontal,camera square to the subject's facing,,,GROUNDED,,industry-standard,studiobinder-shots
+angle.threequarter,three-quarter,3Q,,framing,shot,camera,angle.horizontal,camera at forty-five degrees to the subject's facing,,,GROUNDED,,industry-standard,studiobinder-shots
+angle.rear,rear,REAR,behind,framing,shot,camera,angle.horizontal,camera behind the subject,,,GROUNDED,,industry-standard,studiobinder-shots

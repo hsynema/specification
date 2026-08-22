@@ -1,0 +1,4 @@
+slug,scheme,key,value,status,note,source_key
+industrial-light-magic,etc-movielabs-vfx-is,vendor-code,im,documented,Given in the spec as the example vendor code for Industrial Light and Magic.,etc-vfx-is-1.0
+industrial-light-magic,house-practice,shot-number,globally unique progressive,documented,"Every shot ILM has produced carries the progressive number of shots done since the inception of the method, so the number is unique across all productions rather than within one.",etc-vfx-is-1.0
+industrial-light-magic,open-source,format,OpenEXR; Alembic,documented,OpenEXR is the frame format the ETC naming spec assumes. Alembic co-developed with Sony Pictures Imageworks.,aswf-members

@@ -1,0 +1,18 @@
+scope,unit_kind,field,taxonomy_file,dirties,definition,why_this_scope
+sequence,SPS,environment,,every unit in the work,"location · time of day · atmosphere · named practical light sources","Changing where the film is set is not a shot note. It re-renders everything, and the parameter set is where the format already puts things that are constant for the whole work."
+sequence,SPS,lens,taxonomy/lens-focus.csv,every unit in the work,"focal length · aperture · depth of field · format and optical artifact","A production shoots on a lens package. A per-shot lens is a continuity error with extra steps."
+sequence,SPS,grade,taxonomy/grade.csv,every unit in the work,"named stock or process · palette · contrast","The lab timing, and chain-wide by the same logic that made it chain-wide on film."
+sequence,SPS,style,,every unit in the work,"era · visual register",
+span,EPS,grade,taxonomy/grade.csv,every unit in the span,"an override of the SPS grade for a reel or sequence","The codec already defines EPS as an SPS override for a span, so a re-graded reel is a small localised unit rather than a rewrite. A colour sequence is exactly that span."
+span,EPS,environment,,every unit in the span,"an override for a location change mid-work",
+shot,I-Node,subject,,this unit and its predicted chain,"who or what, and the one thing it does — the motion thesis","A unit with no motion event is a wasted synthesis and an ambiguous hand-off: the frame it passes forward could have come from anywhere in the clip. One event, named, not three."
+shot,I-Node,action,,this unit and its predicted chain,"the single physical event the shot is about",
+shot,I-Node,framing,taxonomy/shot-size.csv|taxonomy/shot-type.csv,this unit and its predicted chain,"shot size and shot type, in industry notation","Size and type are per-shot by definition. Two adjacent units at the same size with the same move are one shot with a seam in it."
+shot,I-Node,angle,taxonomy/camera-angle.csv,this unit and its predicted chain,"camera position relative to the subject",
+shot,I-Node,camera,taxonomy/camera-movement.csv,this unit and its predicted chain,"exactly one move from the closed set, with what it hands forward and what it accepts","One move per unit. At the lengths a generation window allows, a second move has no time to read as a move — it reads as instability, and it poisons the frame the next unit is welded to."
+shot,I-Node,light,taxonomy/lighting.csv,this unit and its predicted chain,"source, then direction, then quality, for this framing","Direction is per-framing even when the fixture is not. The same practical keys a wide and a close differently."
+delta,P-Node,prompt-diff,,this unit onward in the chain,"tokens added or removed against the reference I-Node's prompt","Never a fresh prompt. A P-Node carrying a whole prompt is an I-Node that has lied about its cost."
+delta,P-Node,camera-motion,taxonomy/camera-movement.csv,this unit onward in the chain,"the motion delta as a matrix, drawn from the closed move set","The move vocabulary is the same one an I-Node uses; here it appears as a change rather than a state. Composition across a P-chain must satisfy hands-forward and accepts at every link."
+delta,P-Node,temporal-delta,,this unit onward in the chain,"a pure advance in time with no other change","The whole payload of a HOLD."
+delta,P-Node,control-vector,,this unit onward in the chain,"pose, depth, edge or other conditioning signal deltas",
+never,P-Node,seed,,,"A P-Node never carries a fresh seed.","Stated in the codec. A seed is what makes a unit intra; a predicted unit that reseeds is unmoored from its anchor and the delta means nothing."

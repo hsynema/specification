@@ -1,0 +1,7 @@
+scheme,order,field,required,format,pattern,padding,separator_before,allowed_values,example,note,source_key
+slate-american,1,scene-number,yes,<n>{<page-letter>},^[0-9]+[A-Z]?$,none,,,24,"The scene number from the script. A scene inserted after locked pages takes a letter — 24A as a scene is distinct from 24A as a setup.",artmann-naming
+slate-american,2,setup-letter,conditional,<A-Z>{<A-Z>},^[A-Z]{1,2}$,none,,,B,"Each new camera setup within the scene advances the letter — 24, 24A, 24B. The first setup is the master setup and carries no letter. I, O and S are often skipped because they can be misread as numerals when handwritten. See notation/movielabs-omc for the formalised version of this same convention.",movielabs-omc-context
+slate-american,3,take-number,yes,<n>,^[0-9]+$,none,,,3,"Resets to 1 on each new setup.",script-supervising
+slate-european,1,scene-number,yes,<n>,^[0-9]+$,none,,,6,"The scene number from the script.",artmann-naming
+slate-european,2,shot-number,yes,<n>,^[0-9]+$,none,/,,1,"The shot within the scene. Separator is conventionally '/' but ':' and '.' are both in use. Mainly UK and Sweden.",artmann-naming
+slate-european,3,take-number,yes,<n>,^[0-9]+$,none,,,3,"Resets to 1 on each new shot.",script-supervising

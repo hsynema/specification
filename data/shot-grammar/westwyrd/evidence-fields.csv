@@ -1,0 +1,9 @@
+order,field,source,definition,shot_grammar_note
+1,sha256,hsynema-spec,"Content hash of the artifact this record attests.","The name the M-layer edges are drawn from — inputs are named by hash, never by filename."
+2,engine,hsynema-spec,"The generative engine that produced the artifact.","Two units naming different engines cannot be joined by a P-Node. That is what makes GRAFT force an intra unit."
+3,params,hsynema-spec,"The parameters the engine ran under.","Folded with engine and inputs into the canonical determinism key the cache is addressed by."
+4,inputs[],hsynema-spec,"The hashes of every input consumed.","These are the M-layer's edges. An edge exists only where a record names an input — never inferred from a name or a folder."
+5,created,hsynema-spec,"The moment the artifact was made.",
+6,sig,hsynema-spec,"Per-machine P-256 attestation that the runtime witnessed the computation.","Proves a machine, not a person. Carried in the boundary list so no reader has to discover it."
+7,node_key,hsynema-spec,"The canonical determinism key over engine, inputs and parameters, carried on the coding unit.","The decoder re-uses a previously computed frame only when the exact computation recurs, and re-derives otherwise. A hit is graded reused, not proved reproduced."
+8,drift_components,westwyrd-shot-grammar,"Per-pin distances measured when the encoder synthesised a shadow intra frame to test a predicted chain.","PROPOSED. The codec computes drift as one scalar against a threshold tau. Decomposed into named pins it becomes a diagnosis — subject-identity drifted, everything else held — which tells the encoder to force an intra unit and tells the director why."

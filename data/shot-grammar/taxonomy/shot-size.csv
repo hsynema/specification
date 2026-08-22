@@ -1,0 +1,15 @@
+id,label,abbrev,aliases,category,scope,field,parent,text,hands_forward,accepts,local_status,note,provenance,source_key
+frame.wide.extreme,extreme wide shot,EWS,ELS|extreme long shot,framing,shot,camera,frame.wide,"extreme wide frame, subject barely legible in the landscape",,,UNVERIFIED,Geography over subject. At 512x384 the subject may not survive; check before spending the render.,industry-standard,studiobinder-abbrev
+frame.wide.very,very wide shot,VWS,,framing,shot,camera,frame.wide,"very wide frame, subject readable but small in the space",,,GROUNDED,,industry-standard,studiobinder-shots
+frame.wide.establishing,establishing wide,EST,establishing shot,framing,shot,camera,frame.wide,"wide establishing frame, subject small in the space",,,GROUNDED,"EST is a role, not a size — it is a wide used first in a scene.",industry-standard,studiobinder-abbrev
+frame.wide.long,long shot,LS,WS|wide shot,framing,shot,camera,frame.wide,full body with space above and below,,,GROUNDED,LS and WS are used interchangeably in most American shot lists.,industry-standard,studiobinder-abbrev
+frame.wide.full,full shot,FS,full figure,framing,shot,camera,frame.wide,"full figure in frame, headroom above",,,GROUNDED,"Head to feet, frame edges close.",industry-standard,studiobinder-abbrev
+frame.medium.full,medium full shot,MFS,MLS|medium long shot,framing,shot,camera,frame.medium,framed from the knees up,,,GROUNDED,The 'American shot' — knees up.,industry-standard,studiobinder-abbrev
+frame.medium.cowboy,cowboy shot,CS,waist up|medium wide,framing,shot,camera,frame.medium,framed from the waist up,,,GROUNDED,Named for the framing that keeps a holstered gun in shot.,industry-standard,studiobinder-abbrev
+frame.medium.medium,medium shot,MS,,framing,shot,camera,frame.medium,"framed from the waist up, subject dominant",,,GROUNDED,,industry-standard,studiobinder-abbrev
+frame.medium.mcu,medium close-up,MCU,chest up,framing,shot,camera,frame.medium,framed from the chest up,,,GROUNDED,,industry-standard,studiobinder-abbrev
+frame.close.wide,wide close-up,WCU,,framing,shot,camera,frame.close,"head and a little shoulder, loose",,,GROUNDED,,industry-standard,studiobinder-abbrev
+frame.close.cu,close-up,CU,,framing,shot,camera,frame.close,"close on the face, shoulders cropped",,,GROUNDED,,industry-standard,studiobinder-abbrev
+frame.close.mcs,medium close shot,MCS,,framing,shot,camera,frame.close,"tighter than MCU, looser than CU",,,GROUNDED,,industry-standard,studiobinder-abbrev
+frame.close.ecu,extreme close-up,ECU,XCU,framing,shot,camera,frame.close,"extreme close-up, a single feature filling frame",,,GROUNDED,"Eyes, mouth, a hand. One feature only.",industry-standard,studiobinder-abbrev
+frame.close.insert,insert,INS,,framing,shot,camera,frame.close,"insert on the object being handled, hands only",,,GROUNDED,"An object shot, not a face shot. Usually cut in, so the link is a cut.",industry-standard,studiobinder-shots

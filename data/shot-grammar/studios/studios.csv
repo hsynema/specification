@@ -1,0 +1,38 @@
+slug,name,tier,parent,isdcf_code,etc_contributor,notes
+walt-disney-studios,The Walt Disney Studios,major,,DI,yes,Listed in the ETC working group as Disney/Marvel Studios. Its own post and VFX delivery specifications are behind a partner portal and are not public.
+disney-live-action,Disney Live Action,major-label,walt-disney-studios,DLA,no,Registered separately from DI in the DCNC studio registry.
+walt-disney-animation,Walt Disney Animation Studios,animation,walt-disney-studios,WDAS,no,"Camera capture built into the existing Maya pipeline rather than beside it. Long lineage of camera engineering — multiplane in the 1930s, CAPS in the 1990s."
+pixar,Pixar Animation Studios,animation,walt-disney-studios,PXR,no,Publishes craft writing through RenderMan Stories but no naming specification.
+marvel-studios,Marvel Studios,major-label,walt-disney-studios,MRV,yes,Named in the ETC contributor list as Disney/Marvel Studios.
+lucasfilm,Lucasfilm Ltd.,major-label,walt-disney-studios,LFLM,yes,Listed as Lucasfilm/ILM. The 'sw' Star Wars franchise prefix appears as a worked example in the ETC spec.
+twentieth-century-studios,20th Century Studios,major-label,walt-disney-studios,TCS,yes,"Fox Corp is in the ETC member list; TCF is the legacy 20th Century Fox code, TCS the current one."
+searchlight-pictures,Searchlight Pictures,major-label,walt-disney-studios,SLP,no,Formerly Fox Searchlight — the FX code is the legacy registration.
+warner-bros,Warner Bros. Entertainment,major,,WR,yes,ETC member organisation. HBO is listed separately as an industry contributor.
+new-line-cinema,New Line Cinema,major-label,warner-bros,NT,no,
+universal-pictures,Universal Pictures,major,,UP,yes,Chaired the ETC Adaptive Production VFX Working Group. The 'un' NBCU studio prefix is the spec's own worked example.
+focus-features,Focus Features,major-label,universal-pictures,FF,no,
+dreamworks-animation,DreamWorks Animation,animation,universal-pictures,DA,yes,Listed among ETC industry contributors. Lighting and camera are separate departments in its CG pipeline.
+illumination,Illumination,animation,universal-pictures,,no,No DCNC studio code found in the registry as of this build.
+amblin-entertainment,Amblin Entertainment,mini-major,,AMBL,no,
+paramount-pictures,Paramount Pictures,major,,PC,yes,ETC member organisation.
+paramount-vantage,Paramount Vantage,major-label,paramount-pictures,PV,no,
+sony-pictures,Sony Pictures Entertainment,major,,SPE,yes,ETC industry contributor.
+sony-pictures-classics,Sony Pictures Classics,major-label,sony-pictures,SPC,no,
+sony-pictures-imageworks,Sony Pictures Imageworks,animation,sony-pictures,,no,No separate DCNC code. Its Spider-Verse work is the best-documented deliberate departure from photoreal CG grammar in the studio system.
+amazon-mgm-studios,Amazon MGM Studios,streamer,,AMGM,no,AMZN and XM are both deprecated registrations superseded by AMGM.
+apple-studios,Apple Studios,streamer,,APL,no,
+netflix,Netflix,streamer,,NET,yes,The only major with a publicly published shot-naming specification and a published capture standard.
+a24,A24,mini-major,,A24,no,
+lionsgate,Lions Gate Entertainment,mini-major,,LION,no,
+blumhouse,Blumhouse Productions,mini-major,,BH,no,Its grammar is downstream of a budget ceiling rather than of a look.
+legendary-pictures,Legendary Entertainment,mini-major,,LP,yes,ETC industry contributor.
+skydance-media,Skydance Media,mini-major,,SDM,no,
+neon,Neon,mini-major,,NEON,no,
+miramax,Miramax,mini-major,,MRMX,no,
+annapurna-pictures,Annapurna Pictures,mini-major,,AP,no,
+industrial-light-magic,Industrial Light & Magic,vfx-house,lucasfilm,ILM,yes,Carries both a DCNC studio code and the ETC vendor-code example 'im'. Every shot it has produced carries a globally unique progressive number.
+digital-domain,Digital Domain,vfx-house,,,yes,"The ETC spec's other worked vendor-code example, 'dd'."
+weta-fx,Wētā FX,vfx-house,,,yes,Listed as Weta among ETC industry contributors. No DCNC studio code found.
+luma-pictures,Luma Pictures,vfx-house,,,yes,ETC industry contributor.
+westwyrd-pictures,Westwyrd Pictures,generative-native,,,no,"No ISDCF studio code registered as of this build — recorded empty rather than reserved, because a code you have not registered is a code somebody else may hold. Its shot grammar is the SYN-layer vocabulary of H.SYN.EMA and is the only entry in this dataset written for generated images rather than captured ones."
+westwyrd-federated-instruments,Westwyrd Federated Instruments,standards-body,,,no,"Publisher of the H.SYN.EMA format specification and codec design. Listed as a body rather than a studio because it ships formats, not pictures."

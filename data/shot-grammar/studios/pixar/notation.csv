@@ -1,0 +1,3 @@
+slug,scheme,key,value,status,note,source_key
+pixar,open-source,schema,OpenTimelineIO,documented,"Originated at Pixar, now an Academy Software Foundation project. A Timeline holds a Stack of Tracks holding Clips, Gaps, Stacks, Tracks and Transitions, with markers, timing and metadata — the only publicly governed schema that describes an edit as data. The nearest thing in open source to a machine-readable shot grammar.",otio
+pixar,open-source,tooling,USD; RenderMan; OpenSubdiv,documented,Universal Scene Description is the scene-graph substrate much of the industry now assembles shots in.,aswf-members

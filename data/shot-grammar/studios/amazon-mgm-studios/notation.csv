@@ -1,0 +1,5 @@
+slug,scheme,key,value,status,note,source_key
+amazon-mgm-studios,prime-video-delivery,resolution,3840x2160 minimum for 4K,documented,Distribution-side. Upscaled or upsampled sources are refused.,amazon-content-guide
+amazon-mgm-studios,prime-video-delivery,hdr,HDR-10 Open HDR Format,documented,Every HDR delivery must be accompanied by an SDR source at the same resolution with identical conformance and runtime.,amazon-content-guide
+amazon-mgm-studios,prime-video-delivery,frame-rate,native to production,documented,"Content shot at 23.976, 24 or 25 and telecined to 29.97i must be inverse-telecined back to native.",amazon-content-guide
+amazon-mgm-studios,production-naming-spec,availability,partner-portal,unknown,The Amazon Studios partner portal carries Asset Technical Specifications; the public Prime Video guide is delivery-side only and says nothing about how a shot is named during production.,amazon-studios-portal

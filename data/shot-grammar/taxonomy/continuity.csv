@@ -1,0 +1,10 @@
+id,label,abbrev,aliases,category,scope,field,parent,text,hands_forward,accepts,local_status,note,provenance,source_key
+link.mode.carry,carry,CARRY,,continuity,link,link.mode,link.mode,"camera keeps moving, subject continues",,,OURS,"Anchor is the previous clip's last frame. Highest continuity demand; QC scores this link hardest. Read off the run structure, never chosen.",ours,olympiad-shot-grammar
+link.mode.reframe,reframe,REFRAME,,continuity,link,link.mode,link.mode,"same scene, new framing",,,OURS,"Anchor is the previous clip's last frame. Composition shifts; scene facts hold.",ours,olympiad-shot-grammar
+link.mode.cut,cut,CUT,,continuity,link,link.mode,link.mode,"a deliberate new shot",,,OURS,"Anchor set explicitly. QC must not penalise the break — a hard cut scored as a continuity failure is a false negative that GATE spends a reseed on.",ours,olympiad-shot-grammar
+pin.lightdir,light direction,PIN-LD,,continuity,link,link.pins,link.pins,"key direction must not move across the seam",,,OURS,"Pin list entry. Naming the pin turns a 0-10 QC score into a diagnosis.",ours,olympiad-shot-grammar
+pin.timeofday,time of day,PIN-TOD,,continuity,link,link.pins,link.pins,"ambient level and colour temperature must not move",,,OURS,"Pin list entry.",ours,olympiad-shot-grammar
+pin.wardrobe,wardrobe / colour,PIN-WD,,continuity,link,link.pins,link.pins,"subject's clothing and its colour must not change",,,OURS,"Pin list entry. The most common visible drift in a carry.",ours,olympiad-shot-grammar
+pin.lens,lens,PIN-LN,,continuity,link,link.pins,link.pins,"apparent focal length and depth of field must hold",,,OURS,"Pin list entry.",ours,olympiad-shot-grammar
+pin.scale,subject scale,PIN-SC,,continuity,link,link.pins,link.pins,"subject's size in frame must be continuous with the move",,,OURS,"Pin list entry. Breaks first on OTS and other relational framings.",ours,olympiad-shot-grammar
+pin.geometry,background geometry,PIN-BG,,continuity,link,link.pins,link.pins,"the built world behind the subject must not rearrange",,,OURS,"Pin list entry.",ours,olympiad-shot-grammar

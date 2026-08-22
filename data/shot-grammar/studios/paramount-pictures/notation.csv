@@ -1,0 +1,5 @@
+slug,scheme,key,value,status,note,source_key
+paramount-pictures,movielabs-omc-slate,governance,co-owner,documented,MovieLabs and ETC are Paramount's entire public surface here. It publishes no open-source production tooling and is absent from the Academy Software Foundation roster.,movielabs-omc-context
+paramount-pictures,movielabs-omc-slate,adoption,undetermined,unknown,See walt-disney-studios.,movielabs-omc-context
+paramount-pictures,etc-movielabs-vfx-is,participation,contributor,contributor,Paramount Pictures is an ETC member organisation.,etc-vfx-is-1.0
+paramount-pictures,production-naming-spec,availability,none found,unknown,No public naming specification found.,

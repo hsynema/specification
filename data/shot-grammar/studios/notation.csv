@@ -1,0 +1,59 @@
+slug,scheme,key,value,status,note,source_key
+netflix,netflix-vfx,shot-template,<showID>_<episode>_<seq>_<scene>_<shotID>_<task>_<vendorID>_<version>,documented,"Published on the Netflix Partner Help Center. The only studio-authored shot-naming template in the public domain.",netflix-vfx-naming
+netflix,netflix-vfx,example,AGM_104_TCC_067_0010_comp_NFX_v001,documented,,netflix-vfx-naming
+netflix,netflix-vfx,shot-increment,10,documented,"Shot IDs step by 10 so a shot spotted later between 0010 and 0020 takes 0015.",netflix-vfx-naming
+netflix,netflix-vfx,vendor-id-required,series,documented,"Required for series; encouraged for everything else.",netflix-vfx-naming
+netflix,netflix-vfx,naming-owner,editorial,documented,"Netflix recommends a role embedded with editorial names shots as editorial spots them, so VFX and editorial can cross-check lists.",netflix-vfx-naming
+netflix,capture-standard,sensor-width,3840 photosites spherical,documented,"The Approved Camera programme minimum.",netflix-cameras
+netflix,capture-standard,bit-depth,10-bit or greater,documented,,netflix-cameras
+netflix,capture-standard,data-rate,240 Mbps minimum at 24fps,documented,,netflix-cameras
+netflix,capture-standard,colour,scene-referred gamut and transfer function,documented,"S-Gamut3, ALEXA Wide Gamut, REDWideGamut; Slog3, LogC, Log3G10, VLog.",netflix-cameras
+netflix,capture-standard,approved-coverage,90 percent of final runtime,documented,"At least ninety percent of a programme's final runtime must be captured on an approved camera.",netflix-cameras
+walt-disney-studios,movielabs-omc-slate,governance,co-owner,documented,"MovieLabs is jointly run by Disney, Warner Bros., Universal, Paramount and Sony. Its Ontology for Media Creation is the formal shot grammar these five have collectively published — Shot, Sequence, Slate UID, Setup, Take, all defined, all CC BY 4.0.",movielabs-omc-context
+warner-bros,movielabs-omc-slate,governance,co-owner,documented,"See walt-disney-studios. The ontology is the studio-backed public grammar; adoption remains each member's own decision.",movielabs-omc-context
+universal-pictures,movielabs-omc-slate,governance,co-owner,documented,"Universal is both a MovieLabs owner and the chair of the ETC working group that produced the VFX naming spec — the widest public standards footprint of the five, and still no Universal-branded template.",movielabs-omc-context
+paramount-pictures,movielabs-omc-slate,governance,co-owner,documented,"MovieLabs and ETC are Paramount's entire public surface here. It publishes no open-source production tooling and is absent from the Academy Software Foundation roster.",movielabs-omc-context
+sony-pictures,movielabs-omc-slate,governance,co-owner,documented,"See walt-disney-studios.",movielabs-omc-context
+walt-disney-studios,movielabs-omc-slate,adoption,undetermined,unknown,"Stated verbatim in the ontology: 'Each MovieLabs member company shall decide independently the extent to which it will utilize, or require adherence to, these recommendations.' Co-owning the grammar is not the same as using it, and the document refuses to claim otherwise.",movielabs-omc-context
+warner-bros,movielabs-omc-slate,adoption,undetermined,unknown,"See walt-disney-studios — the same disclaimer covers every member.",movielabs-omc-context
+universal-pictures,movielabs-omc-slate,adoption,undetermined,unknown,"See walt-disney-studios.",movielabs-omc-context
+paramount-pictures,movielabs-omc-slate,adoption,undetermined,unknown,"See walt-disney-studios.",movielabs-omc-context
+sony-pictures,movielabs-omc-slate,adoption,undetermined,unknown,"See walt-disney-studios.",movielabs-omc-context
+universal-pictures,etc-movielabs-vfx-is,showid-prefix,un,documented,"'un' is the spec's own worked example for the NBCU studio prefix — un-ff25.",etc-vfx-is-1.0
+universal-pictures,etc-movielabs-vfx-is,working-group,chair,documented,"Horst Sarubin of Universal Pictures chaired the ETC Adaptive Production VFX Working Group.",etc-vfx-is-1.0
+lucasfilm,etc-movielabs-vfx-is,showid-prefix,sw,documented,"'sw' is the spec's worked example for the Star Wars franchise prefix — sw-solo, sw-rasp.",etc-vfx-is-1.0
+industrial-light-magic,etc-movielabs-vfx-is,vendor-code,im,documented,"Given in the spec as the example vendor code for Industrial Light and Magic.",etc-vfx-is-1.0
+industrial-light-magic,house-practice,shot-number,globally unique progressive,documented,"Every shot ILM has produced carries the progressive number of shots done since the inception of the method, so the number is unique across all productions rather than within one.",etc-vfx-is-1.0
+digital-domain,etc-movielabs-vfx-is,vendor-code,dd,documented,"Given in the spec as the example vendor code for Digital Domain.",etc-vfx-is-1.0
+marvel-studios,etc-movielabs-vfx-is,participation,contributor,contributor,"Listed as Disney/Marvel Studios among ETC member organisations. Contributing to the spec is not the same as adopting it; no Marvel naming document is public.",etc-vfx-is-1.0
+walt-disney-studios,etc-movielabs-vfx-is,participation,contributor,contributor,"Listed as Disney/Marvel Studios among ETC member organisations.",etc-vfx-is-1.0
+warner-bros,etc-movielabs-vfx-is,participation,contributor,contributor,"Warner Bros. Entertainment is an ETC member organisation.",etc-vfx-is-1.0
+paramount-pictures,etc-movielabs-vfx-is,participation,contributor,contributor,"Paramount Pictures is an ETC member organisation.",etc-vfx-is-1.0
+twentieth-century-studios,etc-movielabs-vfx-is,participation,contributor,contributor,"Fox Corp is an ETC member organisation.",etc-vfx-is-1.0
+sony-pictures,etc-movielabs-vfx-is,participation,contributor,contributor,"Sony Pictures Entertainment is listed among ETC industry contributors.",etc-vfx-is-1.0
+dreamworks-animation,etc-movielabs-vfx-is,participation,contributor,contributor,"DreamWorks Animation is listed among ETC industry contributors.",etc-vfx-is-1.0
+legendary-pictures,etc-movielabs-vfx-is,participation,contributor,contributor,"Legendary Entertainment is listed among ETC industry contributors.",etc-vfx-is-1.0
+weta-fx,etc-movielabs-vfx-is,participation,contributor,contributor,"Listed as Weta among ETC industry contributors.",etc-vfx-is-1.0
+luma-pictures,etc-movielabs-vfx-is,participation,contributor,contributor,"Luma Pictures is listed among ETC industry contributors.",etc-vfx-is-1.0
+netflix,etc-movielabs-vfx-is,participation,contributor,contributor,"Netflix is listed among ETC industry contributors, and its own recommendations run parallel to the spec rather than restating it.",etc-vfx-is-1.0
+pixar,open-source,schema,OpenTimelineIO,documented,"Originated at Pixar, now an Academy Software Foundation project. A Timeline holds a Stack of Tracks holding Clips, Gaps, Stacks, Tracks and Transitions, with markers, timing and metadata — the only publicly governed schema that describes an edit as data. The nearest thing in open source to a machine-readable shot grammar.",otio
+pixar,open-source,tooling,USD; RenderMan; OpenSubdiv,documented,"Universal Scene Description is the scene-graph substrate much of the industry now assembles shots in.",aswf-members
+walt-disney-animation,open-source,tooling,Ptex; SeExpr; Partio,documented,"Ptex applies a separate texture per face of a subdivision mesh; SeExpr is an embeddable arithmetic expression language for procedural control.",wdas-opensource
+walt-disney-animation,open-source,dataset,Moana Island Scene; Cloud,documented,"Production scene data released publicly from SIGGRAPH 2017 onward — an actual shot's worth of production assets, which no other studio here has published.",wdas-opensource
+industrial-light-magic,open-source,format,OpenEXR; Alembic,documented,"OpenEXR is the frame format the ETC naming spec assumes. Alembic co-developed with Sony Pictures Imageworks.",aswf-members
+sony-pictures-imageworks,open-source,tooling,OpenColorIO; Open Shading Language; Alembic; Field3D,documented,"OpenColorIO was contributed to the Academy Software Foundation and is now the industry's default colour-pipeline layer — the closest a studio here comes to publishing its grade grammar as code.",imageworks-opensource
+apple-studios,apple-immersive-video,capture-format,MV-HEVC 4320x4320 at 90fps,documented,"The Apple Immersive Video import format, documented publicly at developer level.",apple-aiv-utility
+apple-studios,apple-immersive-video,colour,P3 D65 PQ,documented,,apple-aiv-utility
+apple-studios,apple-immersive-video,audio,Apple Spatial Audio Format in MP4,documented,"Fifth-order ambisonics and object-based audio recommended.",apple-aiv-utility
+apple-studios,apple-immersive-video,metadata,AIME with Immersive Lens Profile Data,documented,"An AIVU file requires an accompanying Apple Immersive Media Embedded metadata file carrying lens projection data. Lens calibration is embedded at the point of capture.",apple-aiv-utility
+apple-studios,apple-immersive-video,acuity-floor,40 pixels per degree minimum; 60 target,documented,"Apple states 60 ppd as the target equating to 20/20 acuity. A capture requirement expressed as a perceptual threshold rather than a resolution — unusual, and specific to Apple.",apple-aiv
+apple-studios,production-naming-spec,availability,none found,unknown,"Apple publishes a capture and delivery format in more public detail than any other studio here, and no shot-naming convention at all. The two are different questions and Apple answers only one.",
+amazon-mgm-studios,prime-video-delivery,resolution,3840x2160 minimum for 4K,documented,"Distribution-side. Upscaled or upsampled sources are refused.",amazon-content-guide
+amazon-mgm-studios,prime-video-delivery,hdr,HDR-10 Open HDR Format,documented,"Every HDR delivery must be accompanied by an SDR source at the same resolution with identical conformance and runtime.",amazon-content-guide
+amazon-mgm-studios,prime-video-delivery,frame-rate,native to production,documented,"Content shot at 23.976, 24 or 25 and telecined to 29.97i must be inverse-telecined back to native.",amazon-content-guide
+amazon-mgm-studios,production-naming-spec,availability,partner-portal,unknown,"The Amazon Studios partner portal carries Asset Technical Specifications; the public Prime Video guide is delivery-side only and says nothing about how a shot is named during production.",amazon-studios-portal
+walt-disney-studios,production-naming-spec,availability,none found,unknown,"Searched Disney Studio Services, Disney Studios corporate and the partner surfaces. Disney's public technical output is overwhelmingly renderer and format tooling — no naming or shot-numbering document. Any per-studio template attributed to Disney here would be reconstruction, so none is given.",
+warner-bros,production-naming-spec,availability,none found,unknown,"No public naming specification found, and no Warner-originated project in the Academy Software Foundation roster. Warner's public standards presence is participation in bodies rather than published artifacts.",
+universal-pictures,production-naming-spec,availability,none found,unknown,"No public Universal-branded naming specification found, despite Universal chairing the cross-industry one. NBCUniversal's published guidelines are linear commercial delivery, not feature post.",
+paramount-pictures,production-naming-spec,availability,none found,unknown,"No public naming specification found.",
+sony-pictures,production-naming-spec,availability,none found,unknown,"No public naming specification from the studio. Sony's public surface is Imageworks' open source, which is pipeline tooling rather than naming.",

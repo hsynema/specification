@@ -1,0 +1,23 @@
+scheme,code,label,group,definition,source_key
+etc-movielabs-vfx-is,mp,main plate,plate,"Main Plate when only one element is required to produce the final VFX work.",etc-vfx-is-1.0
+etc-movielabs-vfx-is,bg,background plate,plate,"Background plate for VFX work requiring multiple elements. Carries layer identification — BG or BG02.",etc-vfx-is-1.0
+etc-movielabs-vfx-is,fg,foreground plate,plate,"Foreground plate for VFX work requiring multiple elements. Includes layer information — FG12.",etc-vfx-is-1.0
+etc-movielabs-vfx-is,el,element plate,plate,"Isolated elements of the shot — partial composites in multi-vendor shots, rotoscoped elements, CG elements delivered at production's request. Overlaps with fg; where ambiguous the choice is the user's.",etc-vfx-is-1.0
+etc-movielabs-vfx-is,cp,clean plate,plate,"Clean Plate to be used for cleanup work.",etc-vfx-is-1.0
+etc-movielabs-vfx-is,rp,reference plate,plate,"Reference Plate such as lighting reference.",etc-vfx-is-1.0
+etc-movielabs-vfx-is,anim,animation,output,"Animation version sent for animation review. May be a playblast or animation over green for editorial to comp.",etc-vfx-is-1.0
+etc-movielabs-vfx-is,comp,composite,output,"Composited VFX shot.",etc-vfx-is-1.0
+etc-movielabs-vfx-is,cnpt,concept,output,"Concept.",etc-vfx-is-1.0
+etc-movielabs-vfx-is,FINAL,final composite,output,"Special designation for final comp. The one value in the vocabulary conventionally written upper case.",etc-vfx-is-1.0
+etc-movielabs-vfx-is,layo,layout,output,"Layout versions, generally sent for environment approval.",etc-vfx-is-1.0
+etc-movielabs-vfx-is,lddv,look dev,output,"Look development.",etc-vfx-is-1.0
+etc-movielabs-vfx-is,matt,mattes and masks,output,"Mattes and masks. Conventionally references its parent plate's revision in the identifying description — mp-v023.",etc-vfx-is-1.0
+etc-movielabs-vfx-is,prev,previs,output,"Pre visualisation.",etc-vfx-is-1.0
+etc-movielabs-vfx-is,prox,proxy,output,"Proxy. Definition provided by the user.",etc-vfx-is-1.0
+etc-movielabs-vfx-is,pstv,postvis,output,"Post visualisation.",etc-vfx-is-1.0
+etc-movielabs-vfx-is,repo,reposition,output,"Repositioning, sent for editorial approval.",etc-vfx-is-1.0
+etc-movielabs-vfx-is,spfx,effects pass,output,"Effects pass. May be a playblast or animation over green for editorial to comp.",etc-vfx-is-1.0
+etc-movielabs-vfx-is,test,test,output,"Test shots and slap comps.",etc-vfx-is-1.0
+etc-movielabs-vfx-is,time,retime,output,"Retime approvals, sent for editorial approval.",etc-vfx-is-1.0
+etc-movielabs-vfx-is,vcam,virtual camera,output,"Virtual camera.",etc-vfx-is-1.0
+etc-movielabs-vfx-is,other-<code>,custom,output,"Any category not addressed by the specification. <code> is defined by the parties exchanging data — other-magic.",etc-vfx-is-1.0

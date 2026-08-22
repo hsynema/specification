@@ -1,0 +1,55 @@
+source_key,title,publisher,year,url,kind
+etc-vfx-is-1.0,VFX Image Sequence Naming v1.0 (TR-VFX-IS),Entertainment Technology Center at USC / MovieLabs,2020,https://movielabs.com/prodtech/sdw/vfx/ETC-ImageSequenceNaming-v1.0-063020-FINAL.pdf,spec
+netflix-vfx-naming,VFX Shot and Version Naming Recommendations,Netflix Partner Help Center,2024,https://partnerhelp.netflixstudios.com/hc/en-us/articles/360057627473-VFX-Shot-and-Version-Naming-Recommendations,spec
+netflix-vfx-plates,VFX Plate Naming Best Practices,Netflix Partner Help Center,2024,https://partnerhelp.netflixstudios.com/hc/en-us/articles/360055781274-VFX-Plate-Naming-Best-Practices,spec
+isdcf-dcnc,Digital Cinema Naming Convention — Illustrated Guide,InterSociety Digital Cinema Forum,2024,https://www.isdcf.com/registry/illustratedguide/,spec
+isdcf-studios,DCNC Studio Code Registry,InterSociety Digital Cinema Forum,2026,https://www.isdcf.com/registry/studios/,registry
+ves-transfer-spec,VES Transfer Specification,Visual Effects Society,2023,https://vestransferspec.org/,spec
+studiobinder-abbrev,Shot List Abbreviations Explained,StudioBinder,2024,https://www.studiobinder.com/blog/shot-list-abbreviations/,reference
+studiobinder-shots,50+ Types of Camera Shots Angles and Techniques,StudioBinder,2024,https://www.studiobinder.com/blog/ultimate-guide-to-camera-shots/,reference
+studiobinder-a24,A24 Cinematography Explained: Lighting Framing & Aesthetic,StudioBinder,2024,https://www.studiobinder.com/blog/a24-cinematography/,criticism
+artmann-naming,Pre-production — Naming of scenes and shots,Artmann Media,2019,https://www.artmann.co.uk/quality/pre-production/naming-of-scenes-and-shots,reference
+script-supervising,Script Supervising and Film Continuity 3rd ed. Appendix A,Focal Press,2010,https://www.oreilly.com/library/view/script-supervising-and/9780240802947/026_9780080516769_appendix_a.html,reference
+netflix-cameras,Netflix Approved Camera List and capture requirements,Netflix / Lensrentals summary,2026,https://www.lensrentals.com/blog/2026/02/the-netflix-approved-camera-list-for-2026/,spec
+ilm-stagecraft,Groundbreaking LED Stage Production Technology for The Mandalorian,Industrial Light & Magic,2020,https://www.ilm.com/groundbreaking-led-stage-production-technology-created-for-hit-lucasfilm-series-the-mandalorian/,trade
+fxguide-spiderverse,Why Spider-Verse has the most inventive visuals you'll see this year,fxguide,2018,https://www.fxguide.com/fxfeatured/why-spider-verse-has-the-most-inventive-visuals-youll-see-this-year/,trade
+beforesandafters-atsv,The first CG animated movie with a dedicated inking team,befores & afters,2023,https://beforesandafters.com/2023/06/28/this-was-the-first-cg-animated-movie-ive-ever-heard-of-that-actually-had-a-dedicated-inking-team/,trade
+awn-disney-vcam,All The World's a Virtual Stage in Disney's New Camera Capture System,Animation World Network,2015,https://www.awn.com/vfxworld/all-worlds-virtual-stage-disneys-new-camera-capture-system,trade
+commarts-marvel,Marvel Wired? Daredevil and Visual Branding in the MCU,Antenna / UW-Madison Media & Cultural Studies,2015,https://blog.commarts.wisc.edu/2015/05/01/marvel-wired-daredevil-and-visual-branding-in-the-mcu,criticism
+cbr-mcu-look,Marvel Studios Made MCU Movies Look the Same for Two Reasons,CBR,2023,https://www.cbr.com/marvel-studios-mcu-movies-look-same-two-reasons/,criticism
+solute-marvel-myth,The Myth of Marvel's House Style,The Solute,2021,https://www.the-solute.com/the-myth-of-marvels-house-style/,criticism
+nofilmschool-blumhouse,Learn What Blumhouse Gets Right About Horror Filmmaking,No Film School,2019,https://nofilmschool.com/what-blumhouse-gets-right,criticism
+readtrung-blumhouse,Blumhouse: The Hollywood Horror Hit Machine,Trung Phan,2023,https://www.readtrung.com/p/blumhouse-the-hollywood-horror-hit,trade
+podcastvideos-a24,How A24 Editing Techniques Improve Visual Storytelling,Podcast Videos,2024,https://www.podcastvideos.com/articles/a24-editing-case-study-visual-storytelling/,criticism
+renderman-cinematography,Incredible Cinematography,Pixar RenderMan Stories,2018,https://renderman.pixar.com/stories/incredible-cinematography,trade
+cinemetrics,Cinemetrics — quantitative study of film,University of Chicago,2005,https://cinemetrics.uchicago.edu/,dataset
+filmmakers-asl,Average Shot Length (ASL),Filmmakers Academy,2024,https://www.filmmakersacademy.com/glossary/average-shot-length-asl/,reference
+olympiad-shot-grammar,docs/SHOT-GRAMMAR.md,OLYMPIAD,2026,docs/SHOT-GRAMMAR.md,internal
+olympiad-standards,docs/STANDARDS.md,OLYMPIAD,2026,docs/STANDARDS.md,internal
+movielabs-omc-context,Ontology for Media Creation Part 2: Context v2.8,Motion Picture Laboratories,2025,https://mc.movielabs.com/omc/Context/ML_Ontology_Pt2_Context_v2.8.pdf,spec
+movielabs-omc,Ontology for Media Creation,Motion Picture Laboratories,2025,https://mc.movielabs.com/docs/ontology/,spec
+movielabs-about,About MovieLabs,Motion Picture Laboratories,2025,https://movielabs.com/about/,reference
+movielabs-2030,The Evolution of Media Creation — 2030 Vision,Motion Picture Laboratories,2019,https://movielabs.com/production-technology/sdw/,spec
+aswf-members,Academy Software Foundation members and projects,Academy Software Foundation,2025,https://www.aswf.io/,reference
+aswf-sony-wb,Sony Pictures Entertainment/Imageworks and Warner Bros. Join Academy Software Foundation,PR Newswire,2018,https://www.prnewswire.com/news-releases/sony-pictures-entertainmentsony-pictures-imageworks-and-warner-bros-join-academy-software-foundation-at-the-linux-foundation-300736136.html,trade
+aswf-netflix-aws,Netflix Amazon Web Services Join Academy Software Foundation,Variety,2019,https://variety.com/2019/digital/news/academy-software-foundation-netflix-amazon-web-services-1203282661/,trade
+aswf-apple,Academy Software Foundation Announces Apple as Premier Member,PR Newswire,2019,https://www.prnewswire.com/news-releases/academy-software-foundation-announces-apple-as-premier-member-300917745.html,trade
+aswf-skydance,Skydance Animation Joins Academy Software Foundation as a Premier Member,PR Newswire,2025,https://www.prnewswire.com/news-releases/skydance-animation-joins-academy-software-foundation-as-a-premier-member-302525483.html,trade
+otio,OpenTimelineIO,Pixar Animation Studios / Academy Software Foundation,2025,https://opentimelineio.readthedocs.io/en/latest/tutorials/architecture.html,spec
+wdas-opensource,Walt Disney Animation Studios Open Source,Walt Disney Animation Studios,2025,https://www.disneyanimation.com/open-source/,reference
+imageworks-opensource,Sony Pictures Imageworks Open Source,Sony Pictures Imageworks,2025,https://opensource.imageworks.com/,reference
+apple-aiv,Apple Immersive Video,Apple Developer,2025,https://developer.apple.com/apple-immersive-video/,spec
+apple-aiv-utility,Requirements for Apple Immersive Video Utility,Apple Support,2025,https://support.apple.com/guide/immersive-video-utility/requirements-dev4579429f0/web,spec
+amazon-content-guide,Prime Video Global Content Guide v6.0,Amazon,2024,https://m.media-amazon.com/images/G/01/CooperWebsite/dvp/downloads/Prime-Video-Global-Content-Guide-v6.pdf,spec
+amazon-studios-portal,Asset Technical Specifications,Amazon Studios Partner Portal,2024,https://portal.amazonstudios.com/hc/en-us/articles/15986845319323-Asset-Technical-Specifications,spec
+hsynema-spec,H.SYN.EMA — A Compound Container for Verifiable Generative Cinema,Westwyrd Federated Instruments,2026,docs/H-SYN-EMA-spec.pdf,spec
+hsynema-codec,H.SYN.EMA Codec — Design & Architecture,Westwyrd Federated Instruments,2026,docs/H-SYN-EMA-codec.pdf,spec
+syn-format-spec,.syn format specification Revision 1,OLYMPIAD,2026,docs/SYN_FORMAT_SPEC.md,internal
+syn-notation,SYN notation — the seven rungs,OLYMPIAD,2026,docs/SYN_NOTATION.md,internal
+westwyrd-shot-grammar,Westwyrd Shot Grammar — the SYN-layer vocabulary,Westwyrd Pictures,2026,docs/WESTWYRD-SHOT-GRAMMAR.md,internal
+eu-ai-act-50,AI Act Article 50 — transparency obligations for generative AI,European Commission,2026,https://artificialintelligenceact.eu/transparency-rules-article-50/,regulation
+c2pa-adoption,C2PA Content Credentials adoption and hardware support,C2PA / industry trackers,2026,https://c2pa.org/,spec
+sag-aftra-ai,SAG-AFTRA artificial intelligence provisions and Digital Replica Rider,SAG-AFTRA,2026,https://www.sagaftra.org/contracts-industry-resources/member-resources/artificial-intelligence,reference
+eo-insurance-ai,AI film production insurance and chain-of-title gap,Akker LLC,2026,https://www.akkerins.com/new-blog/ai-film-production-insurance-gap-2026,reference
+ai-film-compliance,AI-Generated Film Content — 2026 Legal Compliance Guide,Promise Legal,2026,https://blog.promise.legal/ai-generated-content-film-legal-compliance-2026/,reference
+codec-ip-history,IP landscape of video codecs — patent pools and licensing,Lumenci,2025,https://lumenci.com/blogs/video-codec-ip-patent-pools-licensing/,reference

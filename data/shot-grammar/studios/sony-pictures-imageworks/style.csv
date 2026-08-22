@@ -1,0 +1,3 @@
+slug,axis,taxonomy_id,value,confidence,note,provenance,source_key
+sony-pictures-imageworks,rhythm,,mixed frame rates within one image,high,"Spider-Verse abandons a single consistent frame rate — 24fps for some elements, 12fps animated on twos for others. Spider-Punk carries different rates for different parts of his body and his guitar. Imageworks built StepSets to republish scenes at different rates and generate sims accordingly.",trade-reported,fxguide-spiderverse
+sony-pictures-imageworks,style,,line and dot as light and shadow,high,A deliberate style language where light and reflections are defined by dots and shadows by lines — hatching rather than shading. The first CG animated feature with a dedicated inking team.,trade-reported,beforesandafters-atsv

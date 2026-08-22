@@ -1,0 +1,20 @@
+id,label,abbrev,aliases,category,scope,field,parent,text,hands_forward,accepts,local_status,note,provenance,source_key
+light.src.practical,practical,PRAC,,light,sequence,light,light.source,"lit by a named source inside the frame",,,GROUNDED,"Name the fixture — neon, headlight, monitor, fire, candle, LED strip. An unnamed practical is not a practical.",industry-standard,studiobinder-shots
+light.src.daylight,daylight,DAY,,light,sequence,light,light.source,"direct sun",,,GROUNDED,,industry-standard,studiobinder-shots
+light.src.overcast,overcast,OC,,light,sequence,light,light.source,"flat overcast sky, no visible sun",,,GROUNDED,,industry-standard,studiobinder-shots
+light.src.moonlight,moonlight,MOON,,light,sequence,light,light.source,"cool low-level ambient, hard-edged shadow",,,GROUNDED,,industry-standard,studiobinder-shots
+light.src.stage,stage,STG,studio,light,sequence,light,light.source,"controlled studio fixtures",,,GROUNDED,,industry-standard,studiobinder-shots
+light.src.motivated,motivated,MOT,,light,sequence,light,light.source,"artificial light shaped to imitate a source visible in frame",,,UNVERIFIED,"The A24 house habit. See studios/a24. Describes intent rather than an image property.",industry-standard,studiobinder-a24
+light.dir.front,front,FRT,,light,sequence,light,light.direction,"key from camera side",,,GROUNDED,,industry-standard,studiobinder-shots
+light.dir.side,side,SIDE,split|Rembrandt,light,sequence,light,light.direction,"key from ninety degrees",,,GROUNDED,,industry-standard,studiobinder-shots
+light.dir.back,back,BACK,rim|kicker|backlight,light,sequence,light,light.direction,"key from behind the subject, separating it from ground",,,GROUNDED,"The Endgame technique — backlight every figure so disparate CG elements share one ground.",industry-standard,cbr-mcu-look
+light.dir.top,top,TOP,toplight,light,sequence,light,light.direction,"key from directly above",,,GROUNDED,,industry-standard,studiobinder-shots
+light.dir.under,underlit,UNDER,uplight,light,sequence,light,light.direction,"key from below the subject",,,GROUNDED,,industry-standard,studiobinder-shots
+light.qual.hard,hard,HARD,,light,sequence,light,light.quality,"small source, sharp shadow edge",,,GROUNDED,,industry-standard,studiobinder-shots
+light.qual.soft,soft,SOFT,,light,sequence,light,light.quality,"large source, gradual shadow edge",,,GROUNDED,,industry-standard,studiobinder-shots
+light.qual.diffused,diffused,DIFF,,light,sequence,light,light.quality,"source through diffusion, shadow nearly absent",,,GROUNDED,,industry-standard,studiobinder-shots
+light.qual.specular,specular,SPEC,,light,sequence,light,light.quality,"bright highlights on wet or polished surfaces",,,GROUNDED,,industry-standard,studiobinder-shots
+light.ratio.highkey,high key,HK,,light,sequence,light,light.ratio,"low contrast, fill close to key, shadows open",,,GROUNDED,,industry-standard,studiobinder-shots
+light.ratio.lowkey,low key,LK,,light,sequence,light,light.ratio,"high contrast, little fill, shadows deep",,,GROUNDED,,industry-standard,studiobinder-shots
+light.ratio.chiaro,chiaroscuro,CHR,,light,sequence,light,light.ratio,"single hard source, most of frame in shadow",,,GROUNDED,,industry-standard,studiobinder-shots
+light.ratio.overexposed,overexposed daylight,OEX,,light,sequence,light,light.ratio,"bright, clean, near-clipping daylight",,,UNVERIFIED,"The Midsommar register — dread in full sun rather than in dark. See studios/a24.",trade-reported,studiobinder-a24

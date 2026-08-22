@@ -1,0 +1,9 @@
+scheme,order,field,required,format,pattern,padding,separator_before,allowed_values,example,note,source_key
+olympiad-cachekey,1,composed-prompt,yes,"<clip.prompt>{, <promptSuffix>}",,none,,,"dim corridor, slow push in, sodium vapour key","The per-clip body joined to the chain-wide suffix. The suffix is folded in only when set, so renders made before the vector split keep the key they were cached under.",olympiad-standards
+olympiad-cachekey,2,seed,yes,<n>,^[0-9]+$,none,U+001F,,42,"Sweeping the seed against a fixed vector is how variants are made here — N seeds are N cache entries that stay free to revisit. SHOT-GRAMMAR §VII.",olympiad-shot-grammar
+olympiad-cachekey,3,frames,yes,8n+1,^[0-9]+$,none,U+001F,17-97,97,"Must satisfy MediaStandards.isLegal. In-range is not the same as legal — a bounds check passes 48 and 50 happily.",olympiad-standards
+olympiad-cachekey,4,width,yes,<n>,^[0-9]+$,none,U+001F,256-1024 step 32,512,"Every clip in one chain shares a size, so this bounds the arrangement rather than a clip.",olympiad-standards
+olympiad-cachekey,5,height,yes,<n>,^[0-9]+$,none,U+001F,256-1024 step 32,384,,olympiad-standards
+olympiad-cachekey,6,steps,yes,<n>,^[0-9]+$,none,U+001F,,8,"In the key, so a standard by the same argument — but reads as tuning, and no runtime has yet refused a value.",olympiad-standards
+olympiad-cachekey,7,chain-anchor,no,SHA-256 of the previous clip's bytes,^[0-9a-f]*$,none,U+001F,,,"Empty for the first clip, and empty for any clip pinned to its own anchor image — that clip never reads the previous last frame, so the upstream hash does not shape one pixel of it.",olympiad-standards
+olympiad-cachekey,8,image-tag,no,img:<sha256[0:12]>,^(img:[0-9a-f]{12})?$,12 hex,U+001F,,img:9f2ac41b0e77,"Present only when the clip carries an explicit anchor image — a deliberate cut to a new shot.",olympiad-standards

@@ -1,0 +1,2 @@
+slug,body,role,since,public_artifact,note,source_key
+pixar,open source programme,publisher,,Universal Scene Description; RenderMan; OpenSubdiv; OpenTimelineIO,"OpenTimelineIO originated at Pixar and is now an Academy Software Foundation project. It is the only publicly governed schema that describes an edit — shots, tracks, transitions, markers — as data.",otio

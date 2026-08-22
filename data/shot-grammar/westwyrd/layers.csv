@@ -1,0 +1,6 @@
+letter,layer,track,role,carries,shot_grammar_lives_here,source
+H,Hash,fixed 40-byte preamble,"the immutable header and cryptographic key","magic HSYN · version major.minor · flags and track count · the 32-byte Root State Hash R · a track directory of id·codec·offset·len·root",no,hsynema-spec
+SYN,Synthesise,0,"the deterministic instruction stream — the code of the video, stored as coding units, not frames","SPS/EPS parameter sets · I-Nodes (latent seed + full prompt + conditions) · P-Nodes (prompt diff, temporal delta or camera-motion matrix, control vectors)",yes,hsynema-spec
+E,Evidence,1,"the audit ledger: who and what computed each artifact, and on which machine","sha256 · engine · params · inputs[] · created · sig, plus a per-machine P-256 attestation",no,hsynema-spec
+M,Map,2,"the graph topology: the Merkle DAG that lets a non-linear editor branch, diff and re-cut","node · inputs[] — edges by hash, never inferred from a filename",no,hsynema-spec
+A,Assemble,3+,"the compiled timeline and media payloads","editorial cut pointers (ref · in/out · transition params) · an AV1/H.265 fallback proxy · audio stems",partly,hsynema-spec

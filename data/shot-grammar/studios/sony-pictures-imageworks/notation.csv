@@ -1,0 +1,2 @@
+slug,scheme,key,value,status,note,source_key
+sony-pictures-imageworks,open-source,tooling,OpenColorIO; Open Shading Language; Alembic; Field3D,documented,OpenColorIO was contributed to the Academy Software Foundation and is now the industry's default colour-pipeline layer — the closest a studio here comes to publishing its grade grammar as code.,imageworks-opensource
